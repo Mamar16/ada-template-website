@@ -212,7 +212,7 @@ function renderAAPLChart(metric) {
                 label: `AAPL - ${metric}`,
                 data: data,
                 borderColor: isVolume ? '#2176FF' : '#0366d6',
-                backgroundColor: isVolume ? 'rgba(33,118,255,0.8)' : 'rgba(3,102,214,0.08)',
+                backgroundColor: isVolume ? 'rgba(33,118,255,0.8)' : 'rgba(3,102,214,0.8)',
                 pointRadius: isVolume ? 0 : 1,
                 borderWidth: 1
             }]
