@@ -12,4 +12,4 @@ We are a team of 5 quarter-zip wearing bros who are passionate about one thing a
 | Bro 2           | Marius   | |
 | Bro 3           | Sam      | |
 | Bro 4           | Alan     | |
-| Bro 5           | Pablo Vallbona Fernandez   | https://github.com/PabloVallbona|
+| Bro 5           | Pablo Vallbona Fernandez   | <a href="https://github.com/PabloVallbona" target="_blank"><img src="assets/img/favicon.png" alt="GitHub" style="height:32px;vertical-align:middle;"></a>|
