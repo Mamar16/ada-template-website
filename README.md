@@ -2,7 +2,7 @@
 
 # Introduction
 * * *
-Can **doing well** in finance also mean **doing good** for the planet? If you’ve asked yourself this question, you’re not alone, we have too! Sustainable investing has been gaining a lot of attention lately, and we wanted to see whether ethical investing can also stand up financially. To find out, we looked at data from ESG funds and traditional ETFs, comparing them across several financial metrics to explore how they behave differently.
+Can **doing well** in finance also mean **doing good** for human kind? If you’ve asked yourself this question, you’re not alone, we have too! Sustainable investing has been gaining a lot of attention lately, and we wanted to see whether ethical investing can also stand up financially. To find out, we looked at data from ESG funds and traditional ETFs, comparing them across several financial metrics to explore how they behave differently.
 
 ## What are ESG funds?
 * * *
