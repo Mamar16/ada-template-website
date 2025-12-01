@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <img src="assets/img/istockphoto.png" alt="iStockPhoto" style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 # Introduction
