@@ -190,7 +190,7 @@ function parseCSVToObjects(csv) {
 
 async function loadAAPLData() {
     try {
-        const resp = await fetch('/raw_data/stocks/AAPL.csv');
+        const resp = await fetch('raw_data/stocks/AAPL.csv');
         if (!resp.ok) throw new Error('Failed to fetch AAPL CSV');
         const txt = await resp.text();
         AAPL_DATA = parseCSVToObjects(txt);
