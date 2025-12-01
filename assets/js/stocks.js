@@ -116,16 +116,181 @@ function loadStock(symbol) {
     infoDiv.style.display = 'block';
 }
 
+
+// Autocomplete for search bar
+const availableSymbols = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA", "FB"];
+const searchInput = document.getElementById("stockSearch");
+
+// Create datalist for autocomplete
+let dataList = document.getElementById("symbolsList");
+if (!dataList) {
+    dataList = document.createElement("datalist");
+    dataList.id = "symbolsList";
+    document.body.appendChild(dataList);
+}
+searchInput.setAttribute("list", "symbolsList");
+dataList.innerHTML = availableSymbols.map(s => `<option value="${s}">`).join("");
+
+// Show options on focus
+searchInput.addEventListener("focus", () => {
+    dataList.innerHTML = availableSymbols.map(s => `<option value="${s}">`).join("");
+});
+
 // Event listener for load button
 document.getElementById("loadBtn").addEventListener("click", () => {
-    const symbol = document.getElementById("stockSearch").value;
+    const symbol = searchInput.value;
     loadStock(symbol);
 });
 
 // Allow Enter key to load stock
-document.getElementById("stockSearch").addEventListener("keypress", (e) => {
+searchInput.addEventListener("keypress", (e) => {
     if (e.key === 'Enter') {
-        const symbol = document.getElementById("stockSearch").value;
+        const symbol = searchInput.value;
         loadStock(symbol);
     }
+});
+
+// -------------------------
+// AAPL interactive chart
+// -------------------------
+let aaplChart;
+let AAPL_DATA = [];
+
+function showAaplError(message) {
+    const el = document.getElementById('aaplError');
+    if (!el) return;
+    el.textContent = message;
+    el.style.display = 'block';
+    setTimeout(() => { el.style.display = 'none'; }, 5000);
+}
+
+function parseCSVToObjects(csv) {
+    const lines = csv.trim().split('\n');
+    if (lines.length <= 1) return [];
+    const header = lines[0].split(',').map(h => h.trim());
+    const rows = lines.slice(1);
+    return rows.map(r => {
+        const cols = r.split(',');
+        const obj = {};
+        header.forEach((h, i) => {
+            obj[h] = cols[i];
+        });
+        // normalize types
+        return {
+            date: obj['Date'],
+            Open: parseFloat(obj['Open']),
+            High: parseFloat(obj['High']),
+            Low: parseFloat(obj['Low']),
+            Close: parseFloat(obj['Close']),
+            'Adj Close': parseFloat(obj['Adj Close']),
+            Volume: parseInt(obj['Volume'], 10)
+        };
+    }).filter(d => d && d.date);
+}
+
+async function loadAAPLData() {
+    try {
+        const resp = await fetch('/raw_data/stocks/AAPL.csv');
+        if (!resp.ok) throw new Error('Failed to fetch AAPL CSV');
+        const txt = await resp.text();
+        AAPL_DATA = parseCSVToObjects(txt);
+        if (!AAPL_DATA || AAPL_DATA.length === 0) {
+            showAaplError('AAPL data is empty or malformed');
+            return;
+        }
+        // default render: High
+        renderAAPLChart('High');
+    } catch (err) {
+        console.error(err);
+        showAaplError('Unable to load AAPL data. Check raw_data/stocks/AAPL.csv path.');
+    }
+}
+
+function getMetricSeries(metric) {
+    const labels = AAPL_DATA.map(d => d.date);
+    let data = [];
+    switch (metric) {
+        case 'Low': data = AAPL_DATA.map(d => d.Low); break;
+        case 'Close': data = AAPL_DATA.map(d => d.Close); break;
+        case 'Open': data = AAPL_DATA.map(d => d.Open); break;
+        case 'Volume': data = AAPL_DATA.map(d => d.Volume); break;
+        case 'High':
+        default:
+            data = AAPL_DATA.map(d => d.High);
+    }
+    return { labels, data };
+}
+
+function renderAAPLChart(metric) {
+    if (!AAPL_DATA || AAPL_DATA.length === 0) {
+        showAaplError('AAPL data not loaded yet');
+        return;
+    }
+
+    const ctx = document.getElementById('aaplChart').getContext('2d');
+    const { labels, data } = getMetricSeries(metric);
+
+    // If chart exists, destroy to update
+    if (aaplChart) aaplChart.destroy();
+
+    const isVolume = metric === 'Volume';
+
+    aaplChart = new Chart(ctx, {
+        type: isVolume ? 'bar' : 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: `AAPL - ${metric}`,
+                data: data,
+                borderColor: isVolume ? '#2176FF' : '#0366d6',
+                backgroundColor: isVolume ? 'rgba(33,118,255,0.2)' : 'rgba(3,102,214,0.08)',
+                pointRadius: isVolume ? 0 : 1,
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: { display: true },
+                title: { display: true, text: `AAPL - ${metric}` }
+            },
+            scales: {
+                x: {
+                    ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
+                    title: { display: true, text: 'Date' }
+                },
+                y: {
+                    beginAtZero: isVolume,
+                    title: { display: true, text: isVolume ? 'Volume' : 'Price (USD)' },
+                    ticks: {
+                        callback: function(value) {
+                            if (isVolume) return Number(value).toLocaleString();
+                            return value;
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // summary info
+    const info = document.getElementById('aaplInfo');
+    if (info) {
+        const max = Math.max(...data.filter(v => typeof v === 'number'));
+        const min = Math.min(...data.filter(v => typeof v === 'number'));
+        info.innerHTML = `Records: ${AAPL_DATA.length} &nbsp; | &nbsp; Max: ${isFinite(max) ? max.toLocaleString() : '-'} &nbsp; | &nbsp; Min: ${isFinite(min) ? min.toLocaleString() : '-'}`;
+    }
+}
+
+// Wire up dropdown
+document.addEventListener('DOMContentLoaded', () => {
+    const sel = document.getElementById('metricSelect');
+    if (sel) {
+        sel.addEventListener('change', (e) => {
+            renderAAPLChart(e.target.value);
+        });
+    }
+    // Attempt to load AAPL
+    loadAAPLData();
 });
