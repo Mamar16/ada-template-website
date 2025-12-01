@@ -7,3 +7,10 @@ navigation:
     url: /
   - title: Example
     url: example
+  - title: Stocks
+    url: /stocks
+
+# Include JSON files in the build
+include:
+  - assets/data/stocks
+  - assets/data/symbols.json
