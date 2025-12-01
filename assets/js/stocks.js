@@ -211,8 +211,8 @@ function renderAAPLChart(metric) {
             datasets: [{
                 label: `AAPL - ${metric}`,
                 data: data,
-                borderColor: isVolume ? '#2176FF' : '#2176FF',
-                backgroundColor: isVolume ? 'rgba(33,118,255,1)' : '#2176FF',
+                borderColor: '#2176FF',
+                backgroundColor: isVolume ? '#2176FF' : '#2176FF',
                 pointRadius: isVolume ? 1 : 1,
                 borderWidth: 1
             }]
@@ -226,8 +226,17 @@ function renderAAPLChart(metric) {
             },
             scales: {
                 x: {
-                    ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
-                    title: { display: true, text: 'Date' }
+                    ticks: {
+                        maxRotation: 0,
+                        autoSkip: true,
+                        maxTicksLimit: 12,
+                        callback: function(value, index, ticks) {
+                            // Show only the year part of the date string
+                            const dateStr = this.getLabelForValue ? this.getLabelForValue(value) : labels[index];
+                            return dateStr ? dateStr.substring(0, 4) : '';
+                        }
+                    },
+                    title: { display: true, text: 'Year' }
                 },
                 y: {
                     beginAtZero: isVolume,
