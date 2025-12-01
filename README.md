@@ -123,14 +123,38 @@ let symbolsLoaded = false;
 
 // Load symbol list on page load
 function loadSymbolList() {
-    fetch('/assets/data/symbols.json')
-        .then(response => response.json())
-        .then(data => {
-            allSymbols = data;
-            symbolsLoaded = true;
-            console.log(`Loaded ${allSymbols.length} stock symbols`);
-        })
-        .catch(error => console.error('Error loading symbol list:', error));
+    // Try multiple possible paths
+    const paths = ['/assets/data/symbols.json', './assets/data/symbols.json', 'assets/data/symbols.json'];
+    
+    const tryNextPath = (index) => {
+        if (index >= paths.length) {
+            console.error('Could not load symbols from any path');
+            return;
+        }
+        
+        const path = paths[index];
+        console.log(`Trying to load symbols from: ${path}`);
+        
+        fetch(path)
+            .then(response => {
+                if (!response.ok) {
+                    console.log(`Failed (${response.status}), trying next path...`);
+                    tryNextPath(index + 1);
+                    return;
+                }
+                return response.json().then(data => {
+                    allSymbols = data;
+                    symbolsLoaded = true;
+                    console.log(`Loaded ${allSymbols.length} stock symbols from: ${path}`);
+                });
+            })
+            .catch(error => {
+                console.log(`Error with ${path}:`, error.message);
+                tryNextPath(index + 1);
+            });
+    };
+    
+    tryNextPath(0);
 }
 
 // Load individual stock data on demand
@@ -139,15 +163,47 @@ function loadStockData(symbol) {
         return Promise.resolve(stockCache[symbol]);
     }
     
-    return fetch(`/assets/data/stocks/${symbol}.json`)
-        .then(response => {
-            if (!response.ok) throw new Error('Stock not found');
-            return response.json();
-        })
-        .then(data => {
-            stockCache[symbol] = data;
-            return data;
-        });
+    // Try multiple possible paths
+    const paths = [
+        `/assets/data/stocks/${symbol}.json`,
+        `./assets/data/stocks/${symbol}.json`,
+        `assets/data/stocks/${symbol}.json`
+    ];
+    
+    return new Promise((resolve, reject) => {
+        let lastError;
+        
+        const tryNextPath = (index) => {
+            if (index >= paths.length) {
+                reject(lastError || new Error('Stock not found'));
+                return;
+            }
+            
+            const path = paths[index];
+            console.log(`Trying to fetch: ${path}`);
+            
+            fetch(path)
+                .then(response => {
+                    if (!response.ok) {
+                        lastError = new Error(`HTTP ${response.status} for ${path}`);
+                        tryNextPath(index + 1);
+                        return;
+                    }
+                    return response.json().then(data => {
+                        console.log(`Successfully loaded from: ${path}`);
+                        stockCache[symbol] = data;
+                        resolve(data);
+                    });
+                })
+                .catch(error => {
+                    lastError = error;
+                    console.log(`Failed to fetch ${path}:`, error.message);
+                    tryNextPath(index + 1);
+                });
+        };
+        
+        tryNextPath(0);
+    });
 }
 
 function showError(message) {
@@ -312,8 +368,9 @@ loadSymbolList();
 
 ## The ESG data
 
-After selecting th etfs with the ESG labels the dataset is as follows:
+After selecting the etfs with the ESG labels the dataset is as follows:
 
 | Number of etfs       | Labelled as ESG    | Percentage |
 |:---------------------|:-------------------|:-----------|
-|2166                  | 42                 | 1.9        |
+|                 2166 |                 42 |        1.9 |
+
