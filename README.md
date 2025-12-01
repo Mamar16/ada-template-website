@@ -10,3 +10,5 @@ ESG stands for **Environmental**, **Social**, and **Governance**, basically, the
 # The Data
 * * *
 
+The data used in this investigation contains historical daily data on all the tickers that are currently trading on NASDAQ starting from different timepoints up to April 2020. The daily data contains: **Opening**,**Closing**,**Highest** and **Lowest** prices as well as the total **volume** traded on that specific day. We also have access to metadata for each company where we find our ESG labels.
+
