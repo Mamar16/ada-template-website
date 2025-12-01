@@ -116,40 +116,9 @@ function loadStock(symbol) {
     infoDiv.style.display = 'block';
 }
 
+/////////////////////////////////
 
-// Autocomplete for search bar
-const availableSymbols = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA", "FB"];
-const searchInput = document.getElementById("stockSearch");
-
-// Create datalist for autocomplete
-let dataList = document.getElementById("symbolsList");
-if (!dataList) {
-    dataList = document.createElement("datalist");
-    dataList.id = "symbolsList";
-    document.body.appendChild(dataList);
-}
-searchInput.setAttribute("list", "symbolsList");
-dataList.innerHTML = availableSymbols.map(s => `<option value="${s}">`).join("");
-
-// Show options on focus
-searchInput.addEventListener("focus", () => {
-    dataList.innerHTML = availableSymbols.map(s => `<option value="${s}">`).join("");
-});
-
-// Event listener for load button
-document.getElementById("loadBtn").addEventListener("click", () => {
-    const symbol = searchInput.value;
-    loadStock(symbol);
-});
-
-// Allow Enter key to load stock
-searchInput.addEventListener("keypress", (e) => {
-    if (e.key === 'Enter') {
-        const symbol = searchInput.value;
-        loadStock(symbol);
-    }
-});
-
+//////////////////////////////
 // -------------------------
 // AAPL interactive chart
 // -------------------------
