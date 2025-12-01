@@ -15,6 +15,8 @@ The data used in this investigation contains historical daily data on all the ti
 
 Below is an interactive AAPL viewer that defaults to plotting the highest price (High) for AAPL.
 
+* * *
+
 <div id="aapl-widget" style="max-width:900px; margin: 1rem 0;">
 	<label for="metricSelect">Metric:</label>
 	<select id="metricSelect" style="margin-left:0.5rem;">
