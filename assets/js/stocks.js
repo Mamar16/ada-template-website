@@ -176,7 +176,8 @@ async function loadAAPLData() {
 }
 
 function getMetricSeries(metric) {
-    const labels = AAPL_DATA.map(d => d.date);
+    //const labels = AAPL_DATA.map(d => d.date);
+    const labels = [...new Set(AAPL_DATA.map(d => d.date.split('-')[0]))];
     let data = [];
     switch (metric) {
         case 'Low': data = AAPL_DATA.map(d => d.Low); break;
@@ -212,7 +213,7 @@ function renderAAPLChart(metric) {
                 label: `AAPL - ${metric}`,
                 data: data,
                 borderColor: isVolume ? '#2176FF' : '#0366d6',
-                backgroundColor: isVolume ? 'rgba(33,118,255,0.2)' : 'rgba(3,102,214,0.08)',
+                backgroundColor: isVolume ? 'rgba(33,118,255,0.8)' : 'rgba(3,102,214,0.08)',
                 pointRadius: isVolume ? 0 : 1,
                 borderWidth: 1
             }]
