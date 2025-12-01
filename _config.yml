@@ -7,9 +7,3 @@ navigation:
     url: /
   - title: Example
     url: example
-  - title: Stocks
-    url: /stocks
-
-# Keep these files in _site even if they're not processed by Jekyll
-keep_files:
-  - assets/data
