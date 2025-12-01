@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# Pre-Processing of Data
+# Pre-Processing of the Data
