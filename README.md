@@ -50,6 +50,6 @@ Below is a visualisation of the data for the Apple stock for different metrics. 
 After selecting the etfs with the ESG labels the dataset is as follows:
 
 | Number of etfs       | Labelled as ESG    | Percentage |
-|---------------------:|--------------------:|-----------:|
+|:--------------------:|:------------------:|:----------:|
 |                 2166 |                 42 |        1.9 |
 
