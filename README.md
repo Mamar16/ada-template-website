@@ -12,10 +12,10 @@ ESG stands for **Environmental**, **Social**, and **Governance**, basically, the
 # The Data
 * * *
 
-The data used in this investigation contains historical daily data on all the tickers that are currently trading on NASDAQ starting from different timepoints up to April 2020. The daily data contains **Opening**,**Closing**,**Highest** and **Lowest** prices as well as the total **volume** traded on that specific day. We also have access to metadata for each company where we find our ESG labels.
+The data used in this investigation contains historical daily data on all the tickers, (stocks and ETFs), that are currently trading on NASDAQ starting from different timepoints up to April 2020. The daily data contains **Opening**, **Closing**, **Highest** and **Lowest** prices as well as the total **volume** traded on that specific day. We also have access to metadata for each company where we find our ESG labels.
 
 
-Below is a visualisation of the data for the Apple stock for different metrics. _(Even if doesnt look like it, the graphs are different, their low variability makes sense given the fact that they are measurements from the same days)_
+Below is a visualisation of the data for the Apple stock for different metrics. _(Even if doesnt look like it, the graphs **are** different, their low variability makes sense given the fact that they are measurements from the same days)_
 
 * * *
 
@@ -47,9 +47,9 @@ Below is a visualisation of the data for the Apple stock for different metrics. 
 
 ## The ESG data
 
-After selecting the etfs with the ESG labels the dataset is as follows:
+After selecting the ETFs with the ESG labels the dataset is as follows:
 
-| Number of etfs       | Labelled as ESG    | Percentage |
+| Number of ETFs       | Labelled as ESG    | Percentage |
 |:--------------------:|:------------------:|:----------:|
 |                 2166 |                 42 |        1.9 |
 
