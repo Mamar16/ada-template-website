@@ -19,6 +19,8 @@ ESG stands for **Environmental**, **Social**, and **Governance**, basically, the
 2. How do ESG-focused portfolios compare in terms of profitability and volatility?  
 
 3. Does the relative performance of ESG ETFs depend strongly on macroeconomic cycles, such as recessions or inflationary periods? 
+
+
 * * *
 # The Data
 * * *
@@ -55,6 +57,7 @@ Below is a visualisation of the data for the Apple stock for different metrics. 
 <script src="assets/js/stocks.js"></script>
 
 <small>Usage: the widget reads <code>raw_data/stocks/AAPL.csv</code> relative to the site root. Select a metric from the dropdown to update the chart.</small>
+
 * * *
 ## The ESG data
 * * *
