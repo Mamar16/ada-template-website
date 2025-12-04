@@ -26,3 +26,6 @@ We now Face a major issure, to maximize the quality of our answer, we would like
 </div>
 
 * * *
+
+We can see on this graph that there is a massiv tradoff between, the TimeFrame and the numer of ESG ETF available. Even for the smartest analyst bros and sisters, it is hard to justify where exactly to choose the number of days threshold to optimize the quality of our analysis. The metodhology that we apllied is the following. We will perform the comparison at first in one point around the middle (1300 days and 41 ESG ETF remaining). This point will then be used to compare the ESG ETF on this DataFrame vs the average of the market, to show how the comparison is performed on one chosen point. Then we will perform the same analysis on many different thresholds to see if there is a commun tendancy of higher or lower performance in terms of yields and volatility.
+
