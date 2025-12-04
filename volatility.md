@@ -10,5 +10,17 @@ In this Data set, there are 61 different ETF with the label ESG. Each one of the
 We now Face a major issure, to maximize the quality of our answer, we would like to make an analysis on *as many* different ESG ETF as possible *AND* on the longest TimeFrame possible. However, if the analisis is based on a long DataFrame, few ESG ETF will have Data available on this Timeframe. The following graph graph called "the survivor function" shows how many ESG ETF can be analysed as a function of the length of The Timeframe chosen. 
 
 * * *
-<img src="assets/img/sad_bro.png" alt="intro_image" style="width:100%;max-width:1000px;display:block;margin:auto;">
+<div style="display:flex; width:100%; gap:10px;">
+
+  <!-- Image 1 : 1/3 -->
+  <img src="assets/img/sad_bro.png" 
+       alt="image1"
+       style="width:33%; object-fit:cover;">
+
+  <!-- Image 2 : 2/3 -->
+  <img src="assets/img/Survivor.png" 
+       alt="image2"
+       style="width:67%; object-fit:cover;">
+
+</div>
 * * *
