@@ -65,5 +65,5 @@ After selecting the ETFs with the ESG labels the dataset is as follows:
 
 | Number of ETFs       | Labelled as ESG    | Percentage |
 |:--------------------:|:------------------:|:----------:|
-|                 2166 |                 42 |        1.9 |
+|                 4748 |                 60 |        1.3 |
 
