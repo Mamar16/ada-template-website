@@ -13,26 +13,16 @@ We now Face a major issure, to maximize the quality of our answer, we would like
 <div style="display:flex; width:100%; gap:10px;">
 
   <!-- Image 2 : 2/3 -->
-  <div style="width:67%; text-align:center;">
-      <img src="assets/img/Survivor.png" 
-           alt="image2"
-           style="width:100%; object-fit:cover; display:block;">
-      <p style="margin-top:4px; font-size:14px; color:#666;">
-          Survivor function
-      </p>
-  </div>
+  <img src="assets/img/Survivor.png" 
+       alt="image2"
+       style="width:67%; object-fit:cover;">
 
   <!-- Image 1 : 1/3 -->
-  <div style="width:33%; text-align:center;">
-      <img src="assets/img/sad_bro.png" 
-           alt="image1"
-           style="width:100%; object-fit:cover; display:block;">
-      <p style="margin-top:4px; font-size:14px; color:#666;">
-          Sad Bro
-      </p>
-  </div>
+  <img src="assets/img/sad_bro.png" 
+       alt="image1"
+       style="width:33%; object-fit:cover;">
+
 
 </div>
-
 
 * * *
