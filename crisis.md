@@ -65,6 +65,6 @@ We even ran the numbers on a future shocker. A sudden tariff announcement. A sho
 
 So, did the ESG experiment pay off when it mattered most?
 
-Looking at the data, it seems our ESG portfolio was like having a slightly better helmet. It didn't make us invincible—a market, wide crash is still a crash, but it consistently took fewer direct hits. The drawdowns were often shallower and the recovery a bit steadier.
+Looking at the data, it seems our ESG portfolio was like having a slightly better helmet. It didn't make us invincible, a market-wide crash is still a crash, but it consistently took fewer direct hits. The drawdowns were often shallower and the recovery a bit steadier.
 
 You might not get the same face-ripping rallies as some high-risk legacy sectors, but you also might not lose your shirt when things go sideways. And you get to tell people you're saving the world. For a finance bro, that's what we call a win-win.
