@@ -58,6 +58,15 @@ Below is a visualisation of the data for the Apple stock for different metrics. 
 
 <small>Usage: the widget reads <code>raw_data/stocks/AAPL.csv</code> relative to the site root. Select a metric from the dropdown to update the chart.</small>
 
+* * * 
+## The ETF Data
+* * *
+
+We can further take a look at the section of the data that we will use that is comprised of the ETF data. Below a visulaisation of the sectors present in our data.
+
+<iframe src="/assets/graphs/html/etf_sector_distribution.html" width="100%" height="600px" frameborder="0"></iframe>
+
+
 * * *
 ## The ESG data
 * * *
