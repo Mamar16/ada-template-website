@@ -74,10 +74,17 @@ After selecting the ETFs with the ESG labels the dataset is as follows:
 
 | Number of ETFs       | Labelled as ESG    | Percentage |
 |:--------------------:|:------------------:|:----------:|
-|                 4748 |                 60 |        1.3 |
+|                 4748 |                 61 |        1.3 |
 
 With the following sectors:
 
 <iframe src="https://pablovallbona.github.io/ada-template-website/assets/graphs/esg_sector_distribution.html" width="100%" height="600px" frameborder="0"></iframe>
+
+
+Let’s pause for a moment to examine the differences between ESG and non-ESG ETFs. First, the energy sector is entirely absent from our ESG dataset, while it accounts for 2.26% of the overall ETF data. This gap is expected, as most ESG funds avoid companies heavily involved in fossil fuels and other high-carbon industries. Additionally, there is a noticeable underweight in the financial sector. While it is the largest sector across all ETFs (14.8%), it appears in only one ESG fund. This stems from the “S” (Social) and “G” (Governance) criteria of ESG investing. Companies in the financial sector may be excluded due to involvement in controversial lending practices, poor governance records, or low scores on metrics such as financial inclusion.
+
+* * * 
+
+Next, we’ll take a closer look at our ESG ETFs by exploring their volatility, how they respond to crises, their long-term performance, and seasonal patterns. Move on to the next page to dive in.
 
 
