@@ -89,4 +89,4 @@ Let’s pause for a moment to examine the differences between ESG and non-ESG ET
 
 Next, we’ll take a closer look at our ESG ETFs by exploring their volatility, how they respond to crises, their long-term performance, and seasonal patterns. Move on to the next page to dive in.
 
-<img src="assets/img/toddler-dive-child.gif" alt="intro_image" style="width:40%;max-width:1000px;display:block;margin:auto;">
+<img src="assets/img/toddler-dive-child.gif" alt="intro_image" style="width:20%;max-width:1000px;display:block;margin:auto;">
