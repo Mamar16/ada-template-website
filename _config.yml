@@ -11,6 +11,8 @@ navigation:
     url: volatility
   - title: Crisis Reaction
     url: crisis
+  - title: Homogeneity
+    url: homogeneity
   - title: Long Term Performance
     url: long
   - title: The Team
