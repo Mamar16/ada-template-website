@@ -228,11 +228,13 @@ Let's see what we got!
  <img src="assets/img/final(V-with).png" 
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
+**It is clear now, in this case, the average volatility is lower in the ESG ETF by at least a mragin of 0.02 no matter what TimeFrame was chosen. The ESG ETF clearly overperformed the overall Market in terms of stability.**
+
 - Anualized return comparison :
   <img src="assets/img/fina(R2-with).png" 
        alt="Excess anualized return no outliers "
        style="width:100%;max-width:1000px;display:block;margin:auto;">
- 
+ **Same goes for the average yearly return, no matter what Time frame we choose, the average anualized return of an ESG ETF outperforms the Market by at least 1,1% and goes up to 2% or 3% in many different Timeframes**
   
 ### without outliers in the Market data:
 
