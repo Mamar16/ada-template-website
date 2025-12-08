@@ -227,7 +227,7 @@ Results with outliers :
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
 - Anualized return comparison :
-  <img src="assets/img/final(R2-with).png" 
+  <img src="assets/img/fina(R2-with).png" 
        alt="Excess anualized return no outliers "
        style="width:100%;max-width:1000px;display:block;margin:auto;">
  
