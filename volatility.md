@@ -35,80 +35,50 @@ We can clearly see on this graph that there is a massive trade-off between the t
 
 The methodology we applied is the following:
 
-1. We first perform the comparison on one “middle-ground” point  
+Part 1. We first perform the comparison on one “middle-ground” point  
    → **1300 days**, leaving **41 ESG ETFs** in the analysis.  
    This example helps us show how the ESG ETFs are compared to the market as a whole.
 
-2. Then we repeat the exact same analysis across many different thresholds  
-   → to check whether there is a common tendency toward higher or lower performance in terms of yields and volatility.
+Part 2. Then we repeat the exact same analysis across many different thresholds  
+    to check whether there is a common tendency toward higher or lower performance in terms of yields and volatility.
 
 This way, instead of relying on a single arbitrary timeframe, we examine whether the results are **stable across multiple horizons**, making our conclusions far more robust.
 
-## 📊 How We Compare ESG ETFs With the Market
+#Part 1. Performance of ESG ETF vs the market on a middle-ground point:
 
-Now that we know which ETFs survive long enough to be analyzed, it’s time to measure their **financial performance** and finally compare ESG ETFs to the overall market.
-
-In this part, performance of an ETF is defined by two things:
-
-### **1️⃣ How much it grows** → its *annualized yield*  
-### **2️⃣ How much it fluctuates** → its *volatility* (a proxy for risk)
-
-Let’s see how we compute these two numbers.
-
----
-
-## ⚡ Step 1 — Daily Log Returns (the building blocks)
-
-Instead of simple returns, we use **log returns**:
-
+Lets Dive now in the first poart of our analysis. We selected the middle-ground point in our analysis. For each ETF that has data available in this time frame we perform the folowing calculations :
+- The log daily return :
 $$
 r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
 $$
 
-Why logs?  
-Because they add up cleanly over time — perfect for compounding.
-
-We then compute the **average daily log return**:
-
+- The We then compute the **average daily log return** for each ETF:
 $$
-\bar{r} = \frac{1}{N}\sum r_t
+\bar{r} = \frac{1}{N} \sum_{t=1}^{N} r_t
 $$
 
-This is the ETF’s “typical” daily growth rate.
-
----
-
-## ⚡ Step 2 — Annualized Return (CAGR style)
-
-Once we know the average daily log return, turning it into a yearly performance is simple:
+Once we know the average daily log return of an ETF, we turn it into an average yearly performance over this Timeframe :
 
 $$
 \text{Annualized Return} = e^{252 \cdot \bar{r}} - 1
 $$
 
-This tells us how much the ETF grows in one year *if its past behavior continued*.
+Log returns and annualized returns are commonly used in finance because they behave much better than simple returns.  
+They naturally account for the negative impact of volatility on long-term growth (“volatility drag”) and combine additively over time, making them ideal for multi-period analysis.
+For a rigorous explanation of why log returns are preferred in financial modeling, see:  
+Hull, *Options, Futures, and Other Derivatives*, Chapter 15 (standard reference in quantitative finance).
+If you prefer, I can also link a free online source (MIT, CFA, or an academic paper).
 
----
-
-## ⚡ Step 3 — Volatility (risk)
-
-Risk is measured as the standard deviation of daily log returns:
+-The volatility of each ETF:
 
 $$
-\sigma = \sqrt{\frac{1}{N-1} \sum (r_t - \bar{r})^2}
+\sigma = \sqrt{\frac{1}{N - 1} \sum_{t = 1}^{N} (r_t - \bar{r})^2}
 $$
 
-Higher volatility = more uncertainty = more risk.
+Volatility measures how much an ETF's returns fluctuate around their average value.  
+Mathematically, it is the standard deviation of daily log returns. A higher volatility means the ETF experiences larger day-to-day movements, which corresponds to higher uncertainty and higher risk of rapid losses.
 
----
 
-## 🎯 And that’s it.
+Let's now plot the results correspondingg to this Timeframe : 
 
-With:
 
-- **Annualized Return** → how much the ETF grows  
-- **Volatility** → how risky it is  
-
-we can finally compare ESG ETFs to the rest of the market and see who truly performs better.
-
-Short, simple, and financially meaningful.
