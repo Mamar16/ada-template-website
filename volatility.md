@@ -144,9 +144,14 @@ At first glance, this might suggest that ESG ETFs are inherently more stable.
 However, our analyst sisters warned us: this effect may simply be the result of **sample size differences**.
 
 Because the ESG dataset is much smaller, it is statistically easier for it to **avoid extreme values purely by chance**.  
-Before claiming that ESG ETFs are structurally more stable, we therefore need to correct for this imbalance.
+Before claiming that ESG ETFs are structurally more stable, we first remove outliers from the market ETF group in terms of volatility and return.  
+We then repeat the same analysis to compare ESG ETFs against a “normal”, non-outlier ETF in the broader market.
 
+To do this, we filter out all market ETFs whose returns or volatilities lie more than **2 standard deviations** away from the mean.  
+This corresponds approximately to keeping the central 95% of the data, which is a common threshold in statistical analysis.
 
+Lets Now perform the same analysis related results:
+<img width="1025" height="390" alt="image" src="https://github.com/user-attachments/assets/6a5b2826-67cc-41db-8b90-f0a3a79d7fda" />
 
 
 
