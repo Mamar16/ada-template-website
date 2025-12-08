@@ -169,7 +169,9 @@ Lets Now perform the same analysis related results:
 | **ESG ETFs**    | 9.450798                   | 0.009085               | -0.045235                                 |
 | **Market ETFs** | 9.496033                   | 0.010751               | 0.000000                                  |
 
+Sad news... even though the risk still seems much lower as the average volatility of an ESG ETF is still much lower than the average of the market, they now seem to have slightly lower performances on the anualized return with a negative performance of -0.45% against a "normal" ETF in the market. 
 
+But BRO BRO BRO don't cry right now ! Remember this is just one point of analysis among many different time frames ! Read the next part before jumping once again to fast conclusions !
 
 
 
