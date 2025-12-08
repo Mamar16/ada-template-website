@@ -246,15 +246,11 @@ Results without outliers :
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
 - Anualized return comparison :
-- <div style="display:flex; width:100%; gap:10px;">
-  <img src="assets/img/final(R1-no).png" 
-       alt="Survivor Function"
-       style="width:50%; object-fit:cover;">
-
   <img src="assets/img/final(R2-no).png" 
-       alt="Sad Analyst Bro"
-       style="width:50%; object-fit:cover;">
-</div>
+       alt="Excess anualized return no outliers "
+       style="width:100%;max-width:1000px;display:block;margin:auto;">
+ 
+
 
 
 
