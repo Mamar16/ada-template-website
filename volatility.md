@@ -151,7 +151,6 @@ To do this, we filter out all market ETFs whose returns or volatilities lie more
 This corresponds approximately to keeping the central 95% of the data, which is a common threshold in statistical analysis.
 
 Lets Now perform the same analysis related results:
-<img width="1025" height="390" alt="image" src="https://github.com/user-attachments/assets/6a5b2826-67cc-41db-8b90-f0a3a79d7fda" />
 
 <a id="fig-vol-yield-no-outliers"></a>
 
