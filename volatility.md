@@ -216,17 +216,18 @@ We choose:
 - a **maximum timeframe of 2200 days**, where **13 ESG ETFs** remain.
 
 Between these two extremes, we run the same Part 1 analysis at **every 100-day step** (500, 600, 700, …, 2200 days).
-We then extracted and ploted the results from "average volatility" and "Excess average anualized return of ESG vs Market" of each ETF group and plot.
+We then extracted and ploted the results from "average volatility" and "Anualized return of ESG vs Market" of each ETF group and plot.
 
-Let's see what we got :
+Let's see what we got!
 
-<a id="fig-vol-yield-with-outliers-over-time"></a>
+Results with outliers :
+- Volatility comprison :
+- Anualized return comparison : 
+  
+Results without outliers :
+- Volatility comprison :
+- Anualized return comparison : 
 
-**Figure 3 — Annualized Return and Volatility **
-
-<img width="1012" height="588" alt="image" src="https://github.com/user-attachments/assets/2c4aa0e8-b85c-4f84-ba4a-5862db5bee1f" />
-<img width="1222" height="689" alt="image" src="https://github.com/user-attachments/assets/8d48966f-2ef1-47e6-ac01-e7616d8cf45a" />
-<img width="1270" height="739" alt="image" src="https://github.com/user-attachments/assets/67825cda-95b9-47a4-90dd-679b94fff540" />
 
 
 
