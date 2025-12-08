@@ -48,11 +48,13 @@ This way, instead of relying on a single arbitrary timeframe, we examine whether
 
 Lets Dive now in the first poart of our analysis. We selected the middle-ground point in our analysis. For each ETF that has data available in this time frame we perform the folowing calculations :
 - The log daily return :
+  
 $$
 r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
 $$
 
 - The We then compute the **average daily log return** for each ETF:
+  
 $$
 \bar{r} = \frac{1}{N} \sum_{t=1}^{N} r_t
 $$
