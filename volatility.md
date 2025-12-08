@@ -273,6 +273,15 @@ For longer timeframes, the advantage becomes positive again and continues increa
 Removing outliers shows that ESG ETFs **do not always outperform** the market in every timeframe,  
 but the **general tendency remains favorable**, especially for medium and long horizons.
 
+###  Final Interpretation
+
+- **Volatility:** ESG ETFs are consistently *less volatile* than the market, with or without outliers.  
+- **Returns:**  
+  - With outliers → ESG **strongly outperforms**.  
+  - Without outliers → performance becomes more mixed, but the trend is still **positive overall**.
+
+ **Overall, ESG ETFs seem to offer a better risk–return profile**.
+
 
 
 
