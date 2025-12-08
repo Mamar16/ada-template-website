@@ -229,7 +229,7 @@ Let's see what we got!
 - Volatility comprison :
  <img src="assets/img/final(V-with).png" 
      alt="Volatility and Annualized Return without outliers"
-     style="width:100%;max-width:1000px;display:block;margin:auto;">
+     style="width:90%;max-width:1000px;display:block;margin:auto;">
 Across all evaluated timeframes, the **average volatility of ESG ETFs is consistently lower** than that of the overall market.  
 In every single case, the gap remains **significant (around 0.02 of volatility units or more)**.  
 
@@ -239,7 +239,7 @@ In every single case, the gap remains **significant (around 0.02 of volatility u
 - Anualized return comparison :
   <img src="assets/img/fina(R2-with).png" 
        alt="Excess anualized return no outliers "
-       style="width:100%;max-width:1000px;display:block;margin:auto;">
+       style="width:90%;max-width:1000px;display:block;margin:auto;">
 Here again, the dominance of the ESG group is very clear.  
 For every timeframe tested, ESG ETFs show a **positive excess annualized return**, typically between **+1.1% and +2%**, and sometimes even **above +3%**.
 
@@ -252,7 +252,7 @@ For every timeframe tested, ESG ETFs show a **positive excess annualized return*
 - Volatility comprison :
  <img src="assets/img/final(V-no).png" 
      alt="Volatility and Annualized Return without outliers"
-     style="width:100%;max-width:1000px;display:block;margin:auto;">
+     style="width:90%;max-width:1000px;display:block;margin:auto;">
      
 Even after removing extreme values from the market data, ESG ETFs remain **systematically less volatile** across all timeframes.  
 The magnitude of the difference becomes slightly smaller, but the hierarchy does **not change**.
@@ -262,7 +262,7 @@ The magnitude of the difference becomes slightly smaller, but the hierarchy does
 - Anualized return comparison :
   <img src="assets/img/final(R2-no).png" 
        alt="Excess anualized return no outliers "
-       style="width:100%;max-width:1000px;display:block;margin:auto;">
+       style="width:90%;max-width:1000px;display:block;margin:auto;">
  
 Once outliers are removed, the picture becomes more nuanced.  
 For smaller timeframes, ESG ETFs tend to outperform the market by **1% to 2%** per year.  
