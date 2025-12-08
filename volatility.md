@@ -75,9 +75,9 @@ If you prefer, I can also link a free online source (MIT, CFA, or an academic pa
 
 -The volatility of each ETF:
 
-\[
+$$
 \sigma = \sqrt{\frac{1}{N - 1} \sum_{t = 1}^{N} (r_t - \bar{r})^2}
-\]
+$$
 
 
 Volatility measures how much an ETF's returns fluctuate around their average value.  
