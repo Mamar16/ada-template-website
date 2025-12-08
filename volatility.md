@@ -29,6 +29,8 @@ The following graph — the famous *“survivor function”* — shows how many 
        style="width:33%; object-fit:cover;">
 </div>
 
+
+
 ---
 
 We can clearly see on this graph that there is a massive trade-off between the timeframe length and the number of ESG ETFs remaining in the dataset. Even for the smartest analyst bros and sisters, it is hard to justify the “perfect” number of days to choose for an optimal analysis.
@@ -99,4 +101,16 @@ $$
 \overline{\sigma} 
 = \frac{1}{K} \sum_{i=1}^{K} \sigma_i
 $$
+
+These formulas make sense because our goal is to compare the **typical performance of an ESG ETF** with the **typical performance of an ETF in general**.  
+In other words, we want to know: *“If I pick one ETF at random from each group, which group performs better on average?”*
+
+To answer this, we simply compute the **average annualized return** and **average volatility** across all ETFs in each group:
+
+- the mean annualized return  
+- the mean volatility  
+
+This reflects the performance of an “average ETF” in the group, not the performance of a hypothetical portfolio that invests equally in every ETF.
+If we wanted to evaluate such a portfolio, we would need a different mathematical approach (averaging log returns, compounding the combined series, etc.).  
+But since our objective is to compare **individual ETF performance**, the simple group mean is the correct and most interpretable statistic.
 
