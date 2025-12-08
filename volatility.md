@@ -131,10 +131,21 @@ But since our objective is to compare **individual ETF performance**, the simple
 | **Market ETFs** | 8.31                       | 0.0124                 | 0.00                   |
 
 This seems promising for all the Sisters and Bros ethic lovers !
-From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#table-esg-performance), the ESG ETFs outperform the overall Market. They indeed are less volatile and therfore less risky to invest in, and they also have an average execess anualized return of 1.15 % over the market meaning that investing in a random ESG ETF would in average bring 1.15% more yields each year than investing in a random ETF of the market over this Timeframe.
 
-But let s not jump into conclusions too fast! 
-In the [Figure 1](#fig-vol-yield-with-outliers), the amount of different ETF analized is much larger on the market side vs the ESG ETF side, and the results in volatility and yields are spread on a much larger range. One could think that means that the ESG ETF have less outliers due to their better stability but our analyts Sisters warned us : It can just be due to pure luck. As there are much less Data available on ESG ETFs, it could just be due to pure luck that no outliers have an heavy impact on their results.
+From the results shown in [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#table-esg-performance), ESG ETFs appear to outperform the overall market.  
+They are **less volatile** (and therefore less risky) while also delivering an **average excess annualized return of +1.15%**.  
+In practical terms: picking a random ESG ETF would, on average, yield **1.15% more per year** than picking a random ETF from the broader market over this timeframe.
+
+But let’s not jump to conclusions too quickly!
+
+In the version *with* outliers shown in [Figure 2](#fig-vol-yield-with-outliers), the number of analyzed ETFs is **much larger** on the market side than on the ESG side.  
+As a result, the market group exhibits a **much wider spread** in both volatility and returns.  
+At first glance, this might suggest that ESG ETFs are inherently more stable.  
+However, our analyst sisters warned us: this effect may simply be the result of **sample size differences**.
+
+Because the ESG dataset is much smaller, it is statistically easier for it to **avoid extreme values purely by chance**.  
+Before claiming that ESG ETFs are structurally more stable, we therefore need to correct for this imbalance.
+
 
 
 
