@@ -17,3 +17,9 @@ At first glance, this broad overview doesn’t give us much to work with no obvi
 <iframe src="https://pablovallbona.github.io/ada-template-website/assets/graphs/heatmap-split6.html" width="100%" height="600px" style="border:none;"></iframe>
 
 Wow... still no dramatic revelation. If we squint (and maybe tilt our head a little), we might convince ourselves that performance is slightly higher in the second and sixth segments of the year. But making investment claims based on colour gradients and imagination wouldn't be very "data-scientist" of us. So instead, we’ll do this properly by running a t-test to check whether the average returns in these periods truly differ in a statistically significant way, rather than just appearing so visually.
+
+## A Deeper Look
+
+Ok, let's put our scientist lab coats on, (even if data scientists don't have lab coats). We will keep on looking at the whole ETF market for the time being. 
+
+<img src="assets/img/labCoatSwag.gif" alt="intro_image" style="width:20%;max-width:1000px;display:block;margin:auto;">
