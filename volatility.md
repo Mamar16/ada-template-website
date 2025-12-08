@@ -128,3 +128,37 @@ But since our objective is to compare **individual ETF performance**, the simple
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(see **Table 1** for the full comparison)
+
+
