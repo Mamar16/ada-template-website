@@ -131,7 +131,7 @@ But since our objective is to compare **individual ETF performance**, the simple
 | **Market ETFs** | 8.31                       | 0.0124                 | 0.00                   |
 
 This seems promising for all the Sisters and Bros ethic lovers !
-From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#table-esg-performance), the ESG ETFs outperform the overall Market. They indeed are less volatile and therfore less risky to invest in, and they also have an average execess anualized return of 1.15 $% over the market.
+From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#table-esg-performance), the ESG ETFs outperform the overall Market. They indeed are less volatile and therfore less risky to invest in, and they also have an average execess anualized return of 1.15 % over the market meaning that investing in a random ESG ETF would in average bring 1.15% more yields each year than investing in a random ETF of the market over this Timeframe.
 
 
 
@@ -169,6 +169,5 @@ From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#
 
 
 
-(see **Table 1** for the full comparison)
 
 
