@@ -82,6 +82,6 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 
 
 Let's now plot the results correspondingg to this Timeframe : 
-<img src="assets/img/Volandyieldwithoutliers.png" alt="intro_image" style="width:100%;max-width:1000px;display:block;margin:auto;">
+<img src="assets/img/Volandyieldwithoutilers.png" alt="Volandyieldwithoutilers.png" style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 
