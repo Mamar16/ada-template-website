@@ -175,19 +175,39 @@ Lets Now perform the same analysis related results:
 
 **But BRO BRO BRO don't cry right now !** Remember this is just one point of analysis among many different time frames ! Read the next part before jumping once again to fast conclusions !
 
-### Part 2. Performance of ESG ETF vs the market on different Timeframes:
+### Part 2. Performance of ESG ETFs vs. the Market Across Different Timeframes
 
-Now that we know how to compare ESG ETFs vs the overall market on a given Timeframe, we need to compare them on different time ranges to try to find a general  tendancy of performance, which will give us a much **more robust** answer on the overall performance of ESG ETF.
+Now that we’ve seen how to compare ESG ETFs with the overall market on a **single** timeframe, the next step is to examine how this comparison behaves across **many different time ranges**.  
+This allows us to detect **general performance trends** rather than relying on one arbitrary choice — giving us a far **more robust** answer about ESG ETF performance.
+
+---
+
+### A New Dilemma: What Should We Do With Outliers?
+
+In Part 1, we removed outliers from the broader ETF market before comparing it to ESG ETFs.  
+But when extending the analysis across many timeframes, a legitimate question arises:
+
+#### **Option 1 — Keep the outliers**  
+This assumes that investing in ETFs is a bit like gambling:  
+big wins and big losses *do* happen, and therefore extreme values should **not** be removed.
+
+ *Interpretation:* Outliers are part of real financial behavior.
+
+#### **Option 2 — Remove the outliers**  
+This assumes that the small number of outliers among ESG ETFs may simply be due to **luck and small sample size**.  
+To ensure a fair comparison, we might want to clean both datasets consistently.
+
+ *Interpretation:* Removing outliers gives a more typical picture of what an investor can expect.
+ 
+Our smartest bros and sisters came up with the same wisdom as before:  
+> **“If you don’t know which option to choose… just choose all of them!”**
+
+So, we will compute ESG vs Market performance across many different timeframes,  
+**both with and without removing outliers**, and compare the results side by side.
 
 
-In the first part of our analysis, that excluding outliers in the overall ETF market. We are faced once again with a new **dillema** : 
-We either can consider that investing in ETFs is basically like gambling and high wins and looses should not be excluded as their re fully part of the game. 
-**Therfore we should not delete the ouliers in the Market data?**
-We can also consider that the low amount of outliers might just be due to pure luck on the ESG ETF side and we should delezte them in the general Market part to get a fair comparison. **Therefore we should delete the outliers in the Market data?**
 
-Our Smartest Bros and sisters came up again with the same philosophy : **If you don t know which option to choose juste choose all of them!**
 
-Therefore we will perform te analysis on different Timeframes and get results while including **and** excluding outliers.
 
 
 
