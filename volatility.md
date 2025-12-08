@@ -243,7 +243,7 @@ Let’s get to the fun part!
 Before running the analysis, we first define the different **timeframes** we want to evaluate.
 
 We choose:
-- a **minimum timeframe of 500 days**, where **60 ESG ETFs** still have available data,  
+- a **minimum timeframe of 600 days**, where **60 ESG ETFs** still have available data,  
 - a **maximum timeframe of 2200 days**, where **13 ESG ETFs** remain.
 
 Between these two extremes, we run the same Part 1 analysis at **every 100-day step** (500, 600, 700, …, 2200 days).
