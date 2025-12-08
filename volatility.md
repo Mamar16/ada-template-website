@@ -46,7 +46,7 @@ Part 2. Then we repeat the exact same analysis across many different thresholds
 
 This way, instead of relying on a single arbitrary timeframe, we examine whether the results are **stable across multiple horizons**, making our conclusions far more robust.
 
-#Part 1. Performance of ESG ETF vs the market on a middle-ground point:
+# Part 1. Performance of ESG ETF vs the market on a middle-ground point:
 
 Lets Dive now in the first poart of our analysis. We selected the middle-ground point in our analysis. For each ETF that has data available in this time frame we perform the folowing calculations :
 - The log daily return :
@@ -175,7 +175,7 @@ Lets Now perform the same analysis related results:
 
 **But BRO BRO BRO don't cry right now !** Remember this is just one point of analysis among many different time frames ! Read the next part before jumping once again to fast conclusions !
 
-#Part 2. Performance of ESG ETF vs the market on different Timeframes:
+# Part 2. Performance of ESG ETF vs the market on different Timeframes:
 
 Now that we know how to compare ESG ETFs vs the overall market on a given Timeframe, we need to compare them on different time ranges to try to find a general  tendancy of performance, which will give us a much **more robust** answer on the overall performance of ESG ETF.
 
