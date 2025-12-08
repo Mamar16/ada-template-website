@@ -22,4 +22,4 @@ Wow... still no dramatic revelation. If we squint (and maybe tilt our head a lit
 
 Ok, let's put our scientist lab coats on, (even if data scientists don't have lab coats). We will keep on looking at the whole ETF market for the time being. 
 
-<img src="assets/img/LabCoatSwag.gif" alt="Lab" style="width:20%;max-width:1000px;display:block;margin:auto;">
+<img src="assets/img/LabCoatSwag.gif" alt="Lab" style="width:40%;max-width:1000px;display:block;margin:auto;">
