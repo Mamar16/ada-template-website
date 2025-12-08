@@ -205,6 +205,32 @@ Our smartest bros and sisters came up with the same wisdom as before:
 So, we will compute ESG vs Market performance across many different timeframes,  
 **both with and without removing outliers**, and compare the results side by side.
 
+---
+
+Let’s get to the fun part!
+
+Before running the analysis, we first define the different **timeframes** we want to evaluate.
+
+We choose:
+- a **minimum timeframe of 500 days**, where **60 ESG ETFs** still have available data,  
+- a **maximum timeframe of 2200 days**, where **13 ESG ETFs** remain.
+
+Between these two extremes, we run the same Part 1 analysis at **every 100-day step** (500, 600, 700, …, 2200 days).
+We then extracted and ploted the results from "average volatility" and "Excess average anualized return of ESG vs Market" of each ETF group and plot.
+
+Let's see what we got :
+
+<a id="fig-vol-yield-with-outliers-over-time"></a>
+
+**Figure 3 — Annualized Return and Volatility **
+
+<img width="1012" height="588" alt="image" src="https://github.com/user-attachments/assets/2c4aa0e8-b85c-4f84-ba4a-5862db5bee1f" />
+
+
+
+
+
+
 
 
 
