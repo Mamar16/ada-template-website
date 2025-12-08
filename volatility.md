@@ -84,7 +84,7 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 
 
 Let's now plot the results correspondingg to this Timeframe : 
-<a id="fig-vol-yield-no-outliers"></a>
+<a id="fig-vol-yield-with-outliers"></a>
 
 **Figure 1 — Annualized Return vs Volatility (without outliers)**
 
@@ -132,6 +132,9 @@ But since our objective is to compare **individual ETF performance**, the simple
 
 This seems promising for all the Sisters and Bros ethic lovers !
 From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers) and [Table 1](#table-esg-performance), the ESG ETFs outperform the overall Market. They indeed are less volatile and therfore less risky to invest in, and they also have an average execess anualized return of 1.15 % over the market meaning that investing in a random ESG ETF would in average bring 1.15% more yields each year than investing in a random ETF of the market over this Timeframe.
+
+But let s not jump into conclusions too fast! 
+In the [Figure 1](#fig-vol-yield-with-outliers), the amount of different ETF analized is much larger on the market side vs the ESG ETF side, and the results in volatility and yields are spread on a much larger range. One could think that means that the ESG ETF have less outliers due to their better stability but our analyts Sisters warned us : It can just be due to pure luck. As there are much less Data available on ESG ETFs, it could just be due to pure luck that no outliers have an heavy impact on their results.
 
 
 
