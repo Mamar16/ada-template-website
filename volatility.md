@@ -84,4 +84,19 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 Let's now plot the results correspondingg to this Timeframe : 
 <img src="assets/img/Volandyieldwithoutilers.png" alt="Volandyieldwithoutilers.png" style="width:100%;max-width:1000px;display:block;margin:auto;">
 
+And let s compute aswell :
+
+- The average anualized return of each Group :
+  
+  $$
+\overline{R}_{\mathrm{ann}} 
+= \frac{1}{K} \sum_{i=1}^{K} R_{\mathrm{ann},i}
+$$
+
+- The average volatility of each group :
+- 
+$$
+\overline{\sigma} 
+= \frac{1}{K} \sum_{i=1}^{K} \sigma_i
+$$
 
