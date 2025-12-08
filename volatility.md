@@ -116,9 +116,9 @@ But since our objective is to compare **individual ETF performance**, the simple
 
 $$
 \begin{array}{c|ccc}
-& \textbf{Avg Annualized Return (\%)} 
+& \textbf{Avg Annualized Return(\%)} 
 & \textbf{Avg Daily Volatility} 
-& \textbf{Excess vs Market (\%)} \\
+& \textbf{Excess vs Market(\%)} \\
 \hline
 \text{ESG ETFs} 
 & 9.45 
