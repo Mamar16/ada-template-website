@@ -86,7 +86,7 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 Let's now plot the results correspondingg to this Timeframe : 
 <a id="fig-vol-yield-with-outliers"></a>
 
-**Figure 1 — Annualized Return vs Volatility**
+**Figure 1 — Annualized Return and Volatility**
 
 <img src="assets/img/Volandyieldwithoutilers.png" 
      alt="Volatility and Annualized Return without outliers"
@@ -154,13 +154,20 @@ Lets Now perform the same analysis related results:
 
 <a id="fig-vol-yield-no-outliers"></a>
 
-**Figure 2 — Annualized Return vs Volatility (without outliers)**
+**Figure 2 — Annualized Return and Volatility (without outliers)**
 
 <img src="assets/img/Volandyieldwitoutoutliers.png" 
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
 
+<a id="table-esg-performance-no-outliers"></a>
 
+**Table 2 — ESG vs Market Performance Summary (after removing outliers)**
+
+| Group        | Avg Annualized Return (%) | Avg Daily Volatility | Excess Annualized Return vs Market (%) |
+|--------------|----------------------------|------------------------|------------------------------------------|
+| **ESG ETFs**    | 9.450798                   | 0.009085               | -0.045235                                 |
+| **Market ETFs** | 9.496033                   | 0.010751               | 0.000000                                  |
 
 
 
