@@ -220,7 +220,9 @@ We then extracted and ploted the results from "average volatility" and "Anualize
 
 Let's see what we got!
 
-Results with outliers :
+## Results 
+
+### with outliers kept in the Market data:
 
 - Volatility comprison :
  <img src="assets/img/final(V-with).png" 
@@ -232,7 +234,7 @@ Results with outliers :
        style="width:100%;max-width:1000px;display:block;margin:auto;">
  
   
-Results without outliers :
+### without outliers in the Market data:
 
 - Volatility comprison :
  <img src="assets/img/final(V-no).png" 
