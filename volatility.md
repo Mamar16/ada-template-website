@@ -223,21 +223,14 @@ Let's see what we got!
 Results with outliers :
 
 - Volatility comprison :
-  <img src="assets/img/final(V-with).png" 
+ <img src="assets/img/final(V-with).png" 
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
-     
 - Anualized return comparison :
-<div style="display:flex; width:100%; gap:10px;">
-
-  <img src="assets/img/final(R1-with).png" 
-       alt="Survivor Function"
-       style="width:50%; object-fit:cover;">
-
   <img src="assets/img/final(R2-with).png" 
-       alt="Sad Analyst Bro"
-       style="width:50%; object-fit:cover;">
-</div>
+       alt="Excess anualized return no outliers "
+       style="width:100%;max-width:1000px;display:block;margin:auto;">
+ 
   
 Results without outliers :
 
