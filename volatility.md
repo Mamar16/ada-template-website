@@ -220,6 +220,8 @@ We then extracted and ploted the results from "average volatility" and "Anualize
 
 Let's see what we got!
 
+---
+
 ## Results 
 
 ### with outliers kept in the Market data:
@@ -235,7 +237,9 @@ Let's see what we got!
        alt="Excess anualized return no outliers "
        style="width:100%;max-width:1000px;display:block;margin:auto;">
  **Same goes for the average yearly return, no matter what Time frame we choose, the average anualized return of an ESG ETF outperforms the Market by at least 1,1% and goes up to 2% or 3% in many different Timeframes**
-  
+
+---
+
 ### without outliers in the Market data:
 
 - Volatility comprison :
@@ -250,6 +254,75 @@ Let's see what we got!
 
 
 
+
+### 📌 Performance Across Different Timeframes  
+### **Case 1 — Outliers kept in the Market data**
+
+#### 🔹 Volatility comparison  
+<img src="assets/img/final(V-with).png" 
+     alt="Volatility comparison with outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
+
+Across all evaluated timeframes, the **average volatility of ESG ETFs is consistently lower** than that of the overall market.  
+In every single case, the gap remains **significant (around 0.02 of volatility units or more)**.  
+
+👉 **Conclusion:** When outliers are included, ESG ETFs appear **systematically more stable** and exhibit **lower daily risk** regardless of the chosen timeframe.
+
+---
+
+#### 🔹 Annualized return comparison  
+<img src="assets/img/fina(R2-with).png" 
+     alt="Excess annualized return with outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
+
+Here again, the dominance of the ESG group is very clear.  
+For every timeframe tested, ESG ETFs show a **positive excess annualized return**, typically between **+1.1% and +2%**, and sometimes even **above +3%**.
+
+👉 **Conclusion:** With outliers kept, ESG ETFs tend to **strongly outperform** the general ETF market in terms of long-term returns.
+
+---
+
+---
+
+### 📌 Performance Across Timeframes  
+### **Case 2 — Outliers removed from the Market data**
+
+#### 🔹 Volatility comparison  
+<img src="assets/img/final(V-no).png" 
+     alt="Volatility comparison without outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
+
+Even after removing extreme values from the market data, ESG ETFs remain **systematically less volatile** across all timeframes.  
+The magnitude of the difference becomes slightly smaller, but the hierarchy does **not change**.
+
+👉 **Conclusion:** ESG ETFs still appear **less risky** on average than non-ESG ETFs, even once the comparison is made fairer by removing outliers.
+
+---
+
+#### 🔹 Annualized return comparison  
+<img src="assets/img/final(R2-no).png" 
+     alt="Excess annualized return without outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
+
+Once outliers are removed, the picture becomes more nuanced.  
+For smaller timeframes, ESG ETFs tend to outperform the market by **1% to 2%** per year.  
+However, around the **1300–1500 day** region, the excess return drops close to **0%** or slightly negative.  
+For longer timeframes, the advantage becomes positive again and continues increasing.
+
+👉 **Conclusion:**  
+Removing outliers shows that ESG ETFs **do not always outperform** the market in every timeframe,  
+but the **general tendency remains favorable**, especially for medium and long horizons.
+
+---
+
+### 🔥 Final Interpretation
+
+- **Volatility:** ESG ETFs are consistently *less volatile* than the market, with or without outliers.  
+- **Returns:**  
+  - With outliers → ESG **strongly outperforms**.  
+  - Without outliers → performance becomes more mixed, but the trend is still **positive overall**.
+
+👉 **Overall, ESG ETFs seem to offer a better risk–return profile**, especially over longer historical periods.
 
 
 
