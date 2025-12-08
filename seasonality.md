@@ -10,6 +10,6 @@ Does an energy ETF perform better in winter? Does a travel and leisure ETF work 
 
 In an attempt to take an eagle-eye peak at the behavior of etfs over the years we first create a heatmap showing the highest average price for each month of all the years we have data for. 
 
-<iframe src="/assets/graphs/monthly_heatmap-1.html" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="https://pablovallbona.github.io/ada-template-website/assets/graphs/monthly_heatmap.html" width="100%" height="600px" style="border:none;"></iframe>
 
 
