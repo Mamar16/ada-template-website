@@ -115,12 +115,26 @@ If we wanted to evaluate such a portfolio, we would need a different mathematica
 But since our objective is to compare **individual ETF performance**, the simple group mean is better suited.
 
 $$
-\begin{array}{c|c|c}
-\textbf{Metric} & \textbf{ESG ETFs} & \textbf{Market ETFs} \\
+\begin{array}{c|c|c|c}
+\textbf{Metric} 
+    & \textbf{ESG ETFs} 
+    & \textbf{Market ETFs} 
+    & \textbf{Excess vs Market} \\
 \hline
-\text{Average Annualized Return} &  &  \\
-\text{Average Volatility} &  &  \\
+\text{Average Daily Return (\%)} 
+    & 0.035342 
+    & 0.028797 
+    &  \\[6pt]
+\text{Average Annualized Return (\%)} 
+    & 9.450798 
+    & 8.313525 
+    & 1.137273 \\[6pt]
+\text{Average Daily Volatility} 
+    & 0.009085 
+    & 0.012350 
+    &  \\
 \end{array}
 $$
+
 
 
