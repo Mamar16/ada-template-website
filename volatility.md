@@ -114,7 +114,8 @@ This reflects the performance of an “average ETF” in the group, not the perf
 If we wanted to evaluate such a portfolio, we would need a different mathematical approach (averaging log returns, compounding the combined series, etc.).  
 But since our objective is to compare **individual ETF performance**, the simple group mean is better suited.
 
-<a name="table-esg-performance"></a>
+
+<a id="table-esg-performance"></a>
 
 **Table 1 — ESG vs Market Performance Summary**
 
@@ -124,6 +125,17 @@ But since our objective is to compare **individual ETF performance**, the simple
 | **Market ETFs** | 8.31                       | 0.0124                 | 0.00                   |
 
 
+
+a
+a
+
+a
+
+a
+a
+a
+a
+See [Table 1](#table-esg-performance) for a comparison of ESG and Market ETF performance.
 
 
 
