@@ -84,7 +84,13 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 
 
 Let's now plot the results correspondingg to this Timeframe : 
-<img src="assets/img/Volandyieldwithoutilers.png" alt="Volandyieldwithoutilers.png" style="width:100%;max-width:1000px;display:block;margin:auto;">
+<a id="fig-vol-yield-no-outliers"></a>
+
+**Figure 1 — Annualized Return vs Volatility (without outliers)**
+
+<img src="assets/img/Volandyieldwithoutilers.png" 
+     alt="Volatility and Annualized Return without outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 And let s compute aswell :
 
@@ -124,18 +130,10 @@ But since our objective is to compare **individual ETF performance**, the simple
 | **ESG ETFs**    | 9.45                       | 0.0091                 | 1.14                   |
 | **Market ETFs** | 8.31                       | 0.0124                 | 0.00                   |
 
+This seems promising for all the Sisters and Bros ethic lovers !
+From the reults shown in  [Figure 1](#fig-vol-yield-no-outliers)) and [Table 1](#table-esg-performance)
 
 
-a
-a
-
-a
-
-a
-a
-a
-a
-See [Table 1](#table-esg-performance) for a comparison of ESG and Market ETF performance.
 
 
 
