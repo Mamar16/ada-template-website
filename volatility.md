@@ -43,3 +43,72 @@ The methodology we applied is the following:
    → to check whether there is a common tendency toward higher or lower performance in terms of yields and volatility.
 
 This way, instead of relying on a single arbitrary timeframe, we examine whether the results are **stable across multiple horizons**, making our conclusions far more robust.
+
+## 📊 How We Compare ESG ETFs With the Market
+
+Now that we know which ETFs survive long enough to be analyzed, it’s time to measure their **financial performance** and finally compare ESG ETFs to the overall market.
+
+In this part, performance of an ETF is defined by two things:
+
+### **1️⃣ How much it grows** → its *annualized yield*  
+### **2️⃣ How much it fluctuates** → its *volatility* (a proxy for risk)
+
+Let’s see how we compute these two numbers.
+
+---
+
+## ⚡ Step 1 — Daily Log Returns (the building blocks)
+
+Instead of simple returns, we use **log returns**:
+
+$$
+r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
+$$
+
+Why logs?  
+Because they add up cleanly over time — perfect for compounding.
+
+We then compute the **average daily log return**:
+
+$$
+\bar{r} = \frac{1}{N}\sum r_t
+$$
+
+This is the ETF’s “typical” daily growth rate.
+
+---
+
+## ⚡ Step 2 — Annualized Return (CAGR style)
+
+Once we know the average daily log return, turning it into a yearly performance is simple:
+
+$$
+\text{Annualized Return} = e^{252 \cdot \bar{r}} - 1
+$$
+
+This tells us how much the ETF grows in one year *if its past behavior continued*.
+
+---
+
+## ⚡ Step 3 — Volatility (risk)
+
+Risk is measured as the standard deviation of daily log returns:
+
+$$
+\sigma = \sqrt{\frac{1}{N-1} \sum (r_t - \bar{r})^2}
+$$
+
+Higher volatility = more uncertainty = more risk.
+
+---
+
+## 🎯 And that’s it.
+
+With:
+
+- **Annualized Return** → how much the ETF grows  
+- **Volatility** → how risky it is  
+
+we can finally compare ESG ETFs to the rest of the market and see who truly performs better.
+
+Short, simple, and financially meaningful.
