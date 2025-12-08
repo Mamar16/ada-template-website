@@ -171,9 +171,24 @@ Lets Now perform the same analysis related results:
 | **ESG ETFs**    | 9.450798                   | 0.009085               | -0.045235                                 |
 | **Market ETFs** | 9.496033                   | 0.010751               | 0.000000                                  |
 
-Sad news... even though the risk still seems much lower as the average volatility of an ESG ETF is still much lower than the average of the market, they now seem to have slightly lower performances on the anualized return with a negative performance of -0.45% against a "normal" ETF in the market. 
+**Sad news...** even though the risk still seems much lower as the average volatility of an ESG ETF is still much lower than the average of the market, they now seem to have slightly lower performances on the anualized return with a negative performance of **-0.45%** against a usual ETF in the market. 
 
-But BRO BRO BRO don't cry right now ! Remember this is just one point of analysis among many different time frames ! Read the next part before jumping once again to fast conclusions !
+**But BRO BRO BRO don't cry right now !** Remember this is just one point of analysis among many different time frames ! Read the next part before jumping once again to fast conclusions !
+
+#Part 2. Performance of ESG ETF vs the market on different Timeframes:
+
+Now that we know how to compare ESG ETFs vs the overall market on a given Timeframe, we need to compare them on different time ranges to try to find a general  tendancy of performance, which will give us a much **more robust** answer on the overall performance of ESG ETF.
+
+
+In the first part of our analysis, that excluding outliers in the overall ETF market. We are faced once again with a new **dillema** : 
+We either can consider that investing in ETFs is basically like gambling and high wins and looses should not be excluded as their re fully part of the game. 
+**Therfore we should not delete the ouliers in the Market data?**
+We can also consider that the low amount of outliers might just be due to pure luck on the ESG ETF side and we should delezte them in the general Market part to get a fair comparison. **Therefore we should delete the outliers in the Market data?**
+
+Our Smartest Bros and sisters came up again with the same philosophy : **If you don t know which option to choose juste choose all of them!**
+
+Therefore we will perform te analysis on different Timeframes and get results while including **and** excluding outliers.
+
 
 
 
