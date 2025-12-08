@@ -114,17 +114,13 @@ This reflects the performance of an “average ETF” in the group, not the perf
 If we wanted to evaluate such a portfolio, we would need a different mathematical approach (averaging log returns, compounding the combined series, etc.).  
 But since our objective is to compare **individual ETF performance**, the simple group mean is better suited.
 
-\begin{table}[h!]
-\centering
-\renewcommand{\arraystretch}{1.4}
-\begin{tabular}{l|c|c}
-\hline
+$$
+\begin{array}{c|c|c}
 \textbf{Metric} & \textbf{ESG ETFs} & \textbf{Market ETFs} \\
 \hline
-Average Annualized Return &  &  \\
-Average Volatility &  &  \\
-\hline
-\end{tabular}
-\caption{Comparison of average annualized return and volatility between ESG and Market ETF groups.}
-\end{table}
+\text{Average Annualized Return} &  &  \\
+\text{Average Volatility} &  &  \\
+\end{array}
+$$
+
 
