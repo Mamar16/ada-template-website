@@ -88,13 +88,13 @@ And let s compute aswell :
 
 - The average anualized return of each Group :
   
-  $$
+$$
 \overline{R}_{\mathrm{ann}} 
 = \frac{1}{K} \sum_{i=1}^{K} R_{\mathrm{ann},i}
 $$
 
 - The average volatility of each group :
-- 
+
 $$
 \overline{\sigma} 
 = \frac{1}{K} \sum_{i=1}^{K} \sigma_i
