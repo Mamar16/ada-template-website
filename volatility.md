@@ -86,7 +86,7 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 Let's now plot the results correspondingg to this Timeframe : 
 <a id="fig-vol-yield-with-outliers"></a>
 
-**Figure 1 — Annualized Return vs Volatility (without outliers)**
+**Figure 1 — Annualized Return vs Volatility**
 
 <img src="assets/img/Volandyieldwithoutilers.png" 
      alt="Volatility and Annualized Return without outliers"
@@ -153,7 +153,13 @@ This corresponds approximately to keeping the central 95% of the data, which is 
 Lets Now perform the same analysis related results:
 <img width="1025" height="390" alt="image" src="https://github.com/user-attachments/assets/6a5b2826-67cc-41db-8b90-f0a3a79d7fda" />
 
+<a id="fig-vol-yield-no-outliers"></a>
 
+**Figure 2 — Annualized Return vs Volatility (without outliers)**
+
+<img src="assets/img/Volandyieldwithoutoutliers.png" 
+     alt="Volatility and Annualized Return without outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 
 
