@@ -6,7 +6,7 @@ layout: default
 
 Does an energy ETF perform better in winter? Does a travel and leisure ETF shine in summer? To answer questions like these, we’ll explore whether seasonality affects ETF performance—and whether those patterns repeat year after year. The goal is to move from what to invest in, to when to invest in what.
 
-## An Overall Look
+## A First Look
 
 To get a high-altitude, eagle-eye view of ETF behaviour over time, we started by building a heatmap that shows the average price of each ETF for every month across all available years
 .
@@ -22,4 +22,3 @@ Wow... still no dramatic revelation. If we squint (and maybe tilt our head a lit
 
 Ok, let's put our scientist lab coats on, (even if data scientists don't have lab coats). We will keep on looking at the whole ETF market for the time being. 
 
-<img src="assets/img/LabCoatSwag.gif" alt="Lab" style="width:40%;max-width:1000px;display:block;margin:auto;">
