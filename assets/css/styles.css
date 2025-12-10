@@ -27,20 +27,24 @@ a:hover {
     color: #0b4c90 !important;
 }
 
-/* -------- SIDEBAR / NAVIGATION -------- */
+/* --- SIDEBAR FIXE & SCROLLABLE CORRECTEMENT --- */
+
 header {
-    width: 380px;
     position: fixed;
-    left: 2.5rem;
-    top: 2.5rem;
+    top: 0;
+    left: 0;
+
+    height: 100vh;                   
+    width: 320px;                    /* largeur fixe moderne */
+
+    overflow-y: auto;                /* scroll interne */
+    padding: 2.5rem 2rem;
+
     background: #ffffff;
-    padding: 2.2rem;
-    border-radius: 22px;
-    border: 1px solid #e1e7ef;                 /* soft blue-gray border */
-    box-shadow: 0 6px 25px rgba(0,0,0,0.06);
-    height: calc(100vh - 5rem);
-    overflow-y: auto;
-    scrollbar-width: thin;
+    border-right: 1px solid #e1e7ef;
+    box-shadow: 4px 0 15px rgba(0,0,0,0.05);
+
+    z-index: 1000;                   /* reste au-dessus du contenu */
 }
 
 /* Title in sidebar */
