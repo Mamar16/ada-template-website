@@ -137,15 +137,6 @@ pre {
     border: 1px solid #dce4ef;
 }
 
-/* Footer */
-footer {
-    position: fixed;
-    left: 2rem;
-    bottom: 2rem;
-    color: #7a8796;
-    font-size: 0.85rem;
-}
-
 /* Footer dans la sidebar */
 .sidebar-footer {
     margin-top: 2rem;
