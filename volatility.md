@@ -48,6 +48,8 @@ This way, instead of relying on a single arbitrary timeframe, we examine whether
 ---
 ### Part 1. Performance of ESG ETF vs the market on a middle-ground point:
 
+<a id="clalculus-of-yields-and-volatility"></a>
+
 Lets Dive now in the first poart of our analysis. We selected the middle-ground point in our analysis. For each ETF that has data available in this time frame we perform the folowing calculations :
 
 ---
@@ -364,6 +366,8 @@ $$
 
 A correlation is considered statistically significant if the p-value is below the chosen significance threshold.  
 In this study, standard thresholds are used: p < 0.05 indicates statistical significance, while p < 0.01 indicates strong statistical significance.
+
+Since all the necessary values where already calculated [above](#clalculus-of-yields-and-volatility), we can directly plot our results:
 
 
 
