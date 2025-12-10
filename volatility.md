@@ -323,7 +323,7 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  ***
 
- ##  High risk = High reward?
+ # High risk = High reward?
 
 <img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
@@ -394,7 +394,7 @@ Across most time frames, the correlation between ESG ETF volatility and annualiz
 A geometry expert Sister suddently shouts in the back of the room: 
 > **“WAIIIIIIT I'HAVE SEEN THIS SHAPE BEFORE!!”** 
 
-She has a point, let's plot 
+
 
 
 
