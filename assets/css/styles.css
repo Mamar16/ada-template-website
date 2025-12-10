@@ -141,13 +141,15 @@ pre {
 
 /* -------- MOBILE -------- */
 main.container {
-    max-width: 1200px !important;     /* largeur contrôlée */
-    margin-left: 420px !important;    /* espace par rapport à la sidebar */
-    margin-right: 2rem !important;    /* réduit le vide à droite */
-    padding: 3.5rem 4rem !important;
-    display: block;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 
+    max-width: 1100px !important;
+    margin: 0 auto;     /* centrer dans wrapper */
+    padding: 1rem 2rem;
 }
+
 
 /* --- TABLE TEXT VISIBILITY FIX --- */
 main.container table td {
@@ -181,6 +183,18 @@ main.container img {
 main.container h2 {
     border-bottom: 2px solid #d0d7e2;
     padding-bottom: .5rem;
+}
+
+
+/* ---- GRAND PANNEAU BLANC DERRIÈRE TOUT LE CONTENU ---- */
+.wrapper {
+    background: #ffffff !important;
+    border-radius: 28px;
+    padding: 3rem;
+    margin-left: 360px;  /* espace pour sidebar + marge */
+    margin-right: 3rem;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    border: 1px solid #e1e7ef;
 }
 
 
