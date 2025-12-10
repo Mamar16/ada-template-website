@@ -137,26 +137,6 @@ pre {
     border: 1px solid #dce4ef;
 }
 
-/* Footer dans la sidebar */
-.sidebar-footer {
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e1e7ef;
-
-    font-size: 0.85rem;
-    color: #8a94a6;
-}
-
-.sidebar-footer a {
-    color: #1565c0 !important;
-    font-weight: 600;
-}
-
-.sidebar-footer p {
-    margin: 0;
-    line-height: 1.4;
-}
-
 
 /* -------- MOBILE -------- */
 @media (max-width: 900px) {
