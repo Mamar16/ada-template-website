@@ -377,9 +377,11 @@ Since all the necessary values where already calculated [above](#clalculus-of-yi
      alt="Risk = reward?"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
 
-We observe a significant result with a p_value of 2.13
+In this specific case, the Pearson correlation coefficient is high (\( r = 0.75 \)) and the associated p-value (\( p = 2.13 \times 10^{-8} \)) indicates statistical significance. This suggests that, over this time frame, higher volatility is associated with higher returns; however, this observation is specific to the period analyzed, and we next examine whether similar patterns hold across other time frames.
 
 ---
+
+
 
 
 
