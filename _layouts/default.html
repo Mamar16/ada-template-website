@@ -18,14 +18,27 @@
 
   <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const html = document.documentElement;
-    html.scrollTo({
-        left: html.scrollWidth,
-        top: 0,
-        behavior: "instant"
-    });
+
+    let done = false;
+
+    function forceRight() {
+        if (done) return;
+        const html = document.documentElement;
+
+        html.scrollLeft = html.scrollWidth;
+
+        // si la scrollbar retombe à gauche → on recommence
+        if (html.scrollLeft < html.scrollWidth - 20) {
+            requestAnimationFrame(forceRight);
+        } else {
+            done = true;  // quand on est bien tout à droite : stop
+        }
+    }
+
+    forceRight();
   });
-  </script>
+</script>
+
 
 
   <body>
