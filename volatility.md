@@ -336,8 +336,10 @@ Using the previously computed values on volatility and yield this part will answ
 
 Let's answer this question with the same metodology we used above: 
 First we will check the correlation between the volatility on our initial example with the Timeframe of 1300 days and 41 ESG ETF left.
-
-Since we already computed all the values, we can plot directly the pearson correlation in this case.
+We will calculate the pearson correlation between volatility and return o this first example.
+Then once again to analyse it on all the different chosen timeframes.
+*reminder: the times frames are every 100-day step (500, 600, 700, …, 2200 days)*
+---
 
 ### Pearson Correlation and Statistical Significance
 
@@ -374,7 +376,11 @@ Since all the necessary values where already calculated [above](#clalculus-of-yi
 <img src="assets/img/esg_1300_days_corr.png" 
      alt="Risk = reward?"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
-     
+
+We observe a significant result with a p_value of 2.13
+
+---
+
 
 
 
