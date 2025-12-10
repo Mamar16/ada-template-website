@@ -319,7 +319,16 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  **Overall, ESG ETFs seem to offer a better risk–return profile**.
 
+ ***
 
+ ##  High risk = High reward?
+
+ This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
+It will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility, also tend to increase the average return related to the ESG in the past few years.
+
+<img src="assets/img/Volandyieldwithoutilers.png" 
+     alt="Volatility and Annualized Return without outliers"
+     style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 
 
