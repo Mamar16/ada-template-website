@@ -17,12 +17,14 @@
   </head>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      window.scrollTo({
-        left: document.body.scrollWidth,
+  document.addEventListener("DOMContentLoaded", function () {
+    const html = document.documentElement;
+    html.scrollTo({
+        left: html.scrollWidth,
+        top: 0,
         behavior: "instant"
-      });
     });
+  });
   </script>
 
 
