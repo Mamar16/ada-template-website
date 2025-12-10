@@ -385,8 +385,8 @@ In this specific case, the Pearson correlation coefficient is high ($r = 0.75$) 
 
 Now we can plot the differrents p values and pearson correlation coefficients for every different choses times frames :
 
-<img src="assets/img/overall_corr.png" 
-     alt="Risk = reward?2"
+<img src="assets/img/all_ETF_corr_and_return.png" 
+     alt="Risk = reward?3"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 Across most time frames, the correlation between ESG ETF volatility and annualized returns is consistently positive and statistically significant, with Pearson correlation coefficients generally ranging between 0.6 and 0.8 and p-values below the 5% significance threshold. This indicates a robust statistical association within the analyzed sample. However, the strength of the relationship varies across time windows and weakens for the longest horizons, where the number of available ETFs is smaller. These results therefore highlight a stable positive correlation between vollatility and return over the different ESG ETF.
@@ -408,7 +408,10 @@ To check this, we plot for each timeframe:
 - the **correlation between ESG ETF volatility and returns**, and  
 - the **average annualized return of ESG ETFs** over the same period.
 
-*(Insert the ESG “correlation + average return” bar plot here.)*
+
+<img src="assets/img/esg_corr_and_return.png" 
+     alt="Risk = reward?4"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 Visually, the shapes are not random at all: when the **average return is higher**, the **volatility–return correlation also tends to be higher**, and when the average return drops, the correlation weakens.
 
