@@ -155,3 +155,9 @@ pre {
         margin-top: 2rem;
     }
 }
+
+section.container {
+    max-width: 1200px !important;     /* largeur contrôlée */
+    margin-left: 420px !important;    /* espace par rapport à la sidebar */
+    margin-right: 2rem !important;    /* réduit le vide à droite */
+}
