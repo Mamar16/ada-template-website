@@ -323,7 +323,7 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  ***
 
- # High risk = High reward?
+ ## High risk = High reward?
 
 <img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
