@@ -391,9 +391,10 @@ Now we can plot the differrents p values and pearson correlation coefficients fo
 
 Across most time frames, the correlation between ESG ETF volatility and annualized returns is consistently positive and statistically significant, with Pearson correlation coefficients generally ranging between 0.6 and 0.8 and p-values below the 5% significance threshold. This indicates a robust statistical association within the analyzed sample. However, the strength of the relationship varies across time windows and weakens for the longest horizons, where the number of available ETFs is smaller. These results therefore highlight a stable positive correlation between vollatility and return over the different ESG ETF.
 
-A geometry specialist Sister suddently shouts in the back of the room: 
+A geometry expert Sister suddently shouts in the back of the room: 
 > **“WAIIIIIIT I'HAVE SEEN THIS SHAPE BEFORE!!”** 
 
+She has a point, let's plot 
 
 
 
