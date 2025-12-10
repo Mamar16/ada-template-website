@@ -1,18 +1,18 @@
 <img src="assets/img/intro_image.jpg" alt="intro_image" style="width:100%;max-width:1000px;display:block;margin:auto;">
 * * *
 # Introduction
-* * *
+
 Can **doing well** in finance also mean **doing good** for human kind? If you’ve asked yourself this question, you’re not alone, we have too! Sustainable investing has been gaining a lot of attention lately, and we wanted to see whether ethical investing can also stand up financially. To find out, we looked at data from ESG funds and traditional ETFs, comparing them across several financial metrics to explore how they behave differently.
 
 * * *
 ## What are ESG funds?
-* * *
+
 
 ESG stands for **Environmental**, **Social**, and **Governance**, basically, the three pillars of responsible investing. An ESG ETF is a fund that includes companies that do well in these areas. For example, it might invest in companies that are eco-friendly, treat their employees and communities well, and have strong, transparent leadership. Think of ESG funds as a way to align your investments with your values. But a quick heads-up: the rules for what counts as “ESG” aren’t set in stone yet. Each fund issuer can have slightly different standards putting more importance into certain categories, so ESG funds can vary quite a bit.
 
 * * *
 # Research Questions
-* * *
+
 
 1. How does the variability ESG ETFs over time differs to traditional ETFs?  
 
@@ -23,7 +23,7 @@ ESG stands for **Environmental**, **Social**, and **Governance**, basically, the
 
 * * *
 # The Data
-* * *
+
 
 <img src="assets/img/show_me_the_data.gif" alt="intro_image" style="width:40%;max-width:1000px;display:block;margin:auto;">
 
@@ -60,7 +60,7 @@ Below is a visualisation of the data for the Apple stock for different metrics. 
 
 * * * 
 ## The ETF Data
-* * *
+
 
 We can further take a look at the section of the data that we will use that is comprised of the ETF data. Below a visulaisation of the sectors present in our data.
 
@@ -70,7 +70,7 @@ We can further take a look at the section of the data that we will use that is c
 
 * * *
 ## The ESG data
-* * *
+
 
 After selecting the ETFs with the ESG labels the dataset is as follows:
 
