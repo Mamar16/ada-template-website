@@ -385,7 +385,7 @@ In this specific case, the Pearson correlation coefficient is high ($r = 0.75$) 
 
 Now we can plot the differrents p values and pearson correlation coefficients for every different choses times frames :
 
-<img src="assets/img/all_ETF_corr_and_return.png" 
+<img src="assets/img/overall_corr.png" 
      alt="Risk = reward?3"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
 
