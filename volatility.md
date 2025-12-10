@@ -339,7 +339,7 @@ First we will check the correlation between the volatility on our initial exampl
 We will calculate the pearson correlation between volatility and return o this first example.
 Then once again to analyse it on all the different chosen timeframes.
 
-*reminder: the times frames are every 100-day step (500, 600, 700, …, 2200 days)*
+*reminder: the times frames are every 100-day step (600, 700, …, 2200 days)*
 
 ---
 
