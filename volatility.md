@@ -325,12 +325,14 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  ##  High risk = High reward?
 
-This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
-Using the previously computed values on volatility and yield this part will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility, also tend to increase the average return related to the ESG in the past few years.
-
 <img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
+
+---
+
+This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
+Using the previously computed values on volatility and yield this part will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility (more volatility = more uncertainty), also tend to increase the average return related to the ESG in the past few years.
 
 Let's answer this question with the same metodology we used above: 
 First we will check the correlation between the volatility on our initial example with the Timeframe of 1300 days and 41 ESG ETF left.
@@ -368,6 +370,11 @@ A correlation is considered statistically significant if the p-value is below th
 In this study, standard thresholds are used: p < 0.05 indicates statistical significance, while p < 0.01 indicates strong statistical significance.
 
 Since all the necessary values where already calculated [above](#clalculus-of-yields-and-volatility), we can directly plot our results:
+
+<img src="assets/img/esg_1300_days_corr.png" 
+     alt="Risk = reward?"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
+     
 
 
 
