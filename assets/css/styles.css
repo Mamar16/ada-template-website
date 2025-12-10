@@ -34,10 +34,13 @@ header {
     left: 2.5rem;
     top: 2.5rem;
     background: #ffffff;
-    padding: 2rem;
-    border-radius: 20px;
+    padding: 2.2rem;
+    border-radius: 22px;
     border: 1px solid #e1e7ef;                 /* soft blue-gray border */
     box-shadow: 0 6px 25px rgba(0,0,0,0.06);
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 /* Title in sidebar */
