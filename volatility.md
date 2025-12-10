@@ -338,7 +338,9 @@ Let's answer this question with the same metodology we used above:
 First we will check the correlation between the volatility on our initial example with the Timeframe of 1300 days and 41 ESG ETF left.
 We will calculate the pearson correlation between volatility and return o this first example.
 Then once again to analyse it on all the different chosen timeframes.
+
 *reminder: the times frames are every 100-day step (500, 600, 700, …, 2200 days)*
+
 ---
 
 ### Pearson Correlation and Statistical Significance
@@ -374,14 +376,18 @@ In this study, standard thresholds are used: p < 0.05 indicates statistical sign
 Since all the necessary values where already calculated [above](#clalculus-of-yields-and-volatility), we can directly plot our results:
 
 <img src="assets/img/esg_1300_days_corr.png" 
-     alt="Risk = reward?"
+     alt="Risk = reward?1"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 In this specific case, the Pearson correlation coefficient is high (\( r = 0.75 \)) and the associated p-value (\( p = 2.13 \times 10^{-8} \)) indicates statistical significance. This suggests that, over this time frame, higher volatility is associated with higher returns; however, this observation is specific to the period analyzed, and we next examine whether similar patterns hold across other time frames.
 
 ---
 
+Now we can plot the differrents P values and pearson correlation coefficients for every different choses times frames :
 
+<img src="assets/img/overall_corr.png" 
+     alt="Risk = reward?2"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 
 
