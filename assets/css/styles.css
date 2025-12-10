@@ -202,6 +202,11 @@ main.container ul li {
     line-height: 1.6;
 }
 
+main.container ol li::marker {
+    color: #0d1b2a !important;   /* bleu navy foncé */
+    font-weight: 700;
+}
+
 @media (max-width: 900px) {
     header {
         position: static;
