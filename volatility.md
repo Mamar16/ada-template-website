@@ -408,9 +408,8 @@ To check this, we plot for each timeframe:
 - the **correlation between ESG ETF volatility and returns**, and  
 - the **average annualized return of ESG ETFs** over the same period.
 
-
 <img src="assets/img/esg_corr_and_return.png" 
-     alt="Risk = reward?4"
+     alt="Risk = reward?3"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 Visually, the shapes are not random at all: when the **average return is higher**, the **volatility–return correlation also tends to be higher**, and when the average return drops, the correlation weakens.
@@ -438,7 +437,10 @@ We repeat exactly the same exercise, but this time on the **entire ETF universe*
 - the correlation between volatility and returns for all ETFs, and  
 - their average annualized return over each timeframe.
 
-*(Insert the “All ETFs with outliers – correlation + average return” plot here.)*
+<img src="assets/img/all_ETF_corr_and_return.png" 
+     alt="Risk = reward?4"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
+
 
 Here, the pattern becomes much more striking. When the **overall ETF market performs strongly**, the volatility–return correlation becomes much stronger; when performance is weaker, the correlation collapses.
 
