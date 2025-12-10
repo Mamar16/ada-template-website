@@ -394,6 +394,85 @@ Across most time frames, the correlation between ESG ETF volatility and annualiz
 A geometry expert Sister suddently shouts in the back of the room: 
 > **“WAIIIIIIT I'HAVE SEEN THIS SHAPE BEFORE!!”** 
 
+### Correlation vs. Average Performance: Is There a Hidden Pattern?
+
+Our geometry expert was onto something.
+
+Up to now, we looked at two things **separately**:
+- how strong the correlation between volatility and return is, and  
+- how high the average annualized returns are.
+
+But what if these two were actually *moving together*?
+
+To check this, we plot for each timeframe:
+- the **correlation between ESG ETF volatility and returns**, and  
+- the **average annualized return of ESG ETFs** over the same period.
+
+*(Insert the ESG “correlation + average return” bar plot here.)*
+
+Visually, the shapes are not random at all: when the **average return is higher**, the **volatility–return correlation also tends to be higher**, and when the average return drops, the correlation weakens.
+
+To quantify this, we compute a “meta-correlation” between:
+- $X =$ “correlation (volatility vs return) for ESG ETFs”, and  
+- $Y =$ “average annualized return of ESG ETFs” across timeframes.
+
+For ESG ETFs only, we obtain:
+
+- $r \approx 0.43$  
+- $p \approx 0.10$  
+- number of timeframes: $16$
+
+So the association is **moderately positive**, but **not statistically significant** at the usual 5% threshold. In other words, there is a visible tendency for “better ESG periods” to come with a stronger volatility–return link, but the data are not strong enough to make a hard claim. It’s more of a *hint* than a formal proof.
+
+---
+
+### What Happens If We Forget ESG Labels and Look at All ETFs?
+
+Now comes the fun comparison.
+
+We repeat exactly the same exercise, but this time on the **entire ETF universe** (with outliers kept), and plot:
+
+- the correlation between volatility and returns for all ETFs, and  
+- their average annualized return over each timeframe.
+
+*(Insert the “All ETFs with outliers – correlation + average return” plot here.)*
+
+Here, the pattern becomes much more striking. When the **overall ETF market performs strongly**, the volatility–return correlation becomes much stronger; when performance is weaker, the correlation collapses.
+
+Running the same meta-correlation between:
+
+- $X =$ “correlation (volatility vs return) for all ETFs (with outliers)”, and  
+- $Y =$ “average annualized return of all ETFs”,
+
+we get:
+
+- $r \approx 0.88$  
+- $p \approx 1.35 \times 10^{-5}$  
+- number of timeframes: $15$
+
+This is a **very strong and statistically significant** relationship. In plain language:
+
+> In the full ETF universe, the periods with the highest average returns
+> are exactly those where volatility and returns are most strongly linked.
+
+---
+
+### So… Is “High Risk = High Reward” or Just “High Trend = High Correlation”?
+
+Putting all this together, we can now refine our earlier interpretation:
+
+- Yes, for ESG ETFs, we do observe a **positive correlation** between volatility and returns across many timeframes.
+- But this correlation **seems to strengthen when the whole environment is good** (high average ESG returns) and would likely be weaker in less favorable regimes.
+- On the broader ETF universe, this effect is even more obvious: when the market is doing great, volatility behaves more like an **upside amplifier** than a neutral risk measure.
+
+In other words, the volatility–return correlation we see for ESG ETFs is **not a timeless law of finance**.  
+It is at least partly **biased by the fact that ESG ETFs performed very well over the sample period**. During strong performance regimes, high-volatility products tend to sit on the right side of the trend and look like “high risk = high reward”. But if the global ESG performance were to weaken, the same high volatility could just as easily amplify **losses** instead.
+
+So from an investor perspective:
+
+> Higher volatility in ESG ETFs has historically been associated with higher returns in this dataset, **but mainly in periods when ESG as a whole was doing well**. Volatility is better seen as an amplifier of whatever regime you are in, not as a guarantee of extra return.
+
+Time to keep that in mind before aping into the spiciest ESG tickers on the list.
 
 
 
