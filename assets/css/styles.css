@@ -6,6 +6,7 @@ body {
     color: #1e2732 !important;  
     font-family: "Inter", "Segoe UI", sans-serif !important;
     padding: 1rem;
+    overflow-x: hidden;
 }
 
 /* Typography */
@@ -144,6 +145,7 @@ main.container {
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
+    margin-left: 400px !important;
 
     max-width: 1100px !important;
     margin: 0 auto;     /* centrer dans wrapper */
