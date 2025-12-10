@@ -140,6 +140,13 @@ footer {
     font-size: 0.85rem;
 }
 
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* -------- MOBILE -------- */
 @media (max-width: 900px) {
     header {
