@@ -20,7 +20,7 @@ The following graph — the famous *“survivor function”* — shows how many 
 
 <div style="display:flex; width:100%; gap:10px;">
 
-  <img src="assets/img/Survivor1.png" 
+  <img src="assets/img/survivor1.png" 
        alt="Survivor Function"
        style="width:67%; object-fit:cover;">
 
