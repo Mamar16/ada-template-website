@@ -414,7 +414,7 @@ To check this, we plot for each timeframe:
 
 Visually, the shapes are not random at all: when the **average return is higher**, the **volatility–return correlation also tends to be higher**, and when the average return drops, the correlation weakens.
 
-To quantify this, we compute a “meta-correlation” between:
+To quantify this, we take one step further, computing a Pearson correlation within a Pearson correlation, or, borrowing from Inception, a small **“Pearsonception.”**
 - $X =$ “correlation (volatility vs return) for ESG ETFs”, and  
 - $Y =$ “average annualized return of ESG ETFs” across timeframes.
 
