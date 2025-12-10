@@ -323,12 +323,50 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  ##  High risk = High reward?
 
- This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
-It will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility, also tend to increase the average return related to the ESG in the past few years.
+This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
+Using the previously computed values on volatility and yield this part will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility, also tend to increase the average return related to the ESG in the past few years.
 
 <img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
-     style="width:90%;max-width:1000px;display:block;margin:auto;">
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
+
+Let's answer this question with the same metodology we used above: 
+First we will check the correlation between the volatility on our initial example with the Timeframe of 1300 days and 41 ESG ETF left.
+
+Since we already computed all the values, we can plot directly the pearson correlation in this case.
+
+### Pearson Correlation and Statistical Significance
+
+The Pearson correlation coefficient between ESG ETF volatility and annualized return is computed as:
+
+$$
+r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}
+{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}
+$$
+
+where:
+- $x_i$ denotes ESG ETF volatility,
+- $y_i$ denotes annualized total return,
+- $\bar{x}$ and $\bar{y}$ are the sample means,
+- $n$ is the number of ETFs in the sample.
+
+To assess statistical significance, the corresponding t-statistic is computed as:
+
+$$
+t = r \sqrt{\frac{n - 2}{1 - r^2}}
+$$
+  
+The p-value is then obtained as:
+
+$$
+p = 2 \cdot \left(1 - F_t(|t|, n - 2)\right)
+$$
+
+A correlation is considered statistically significant if the p-value is below the chosen significance threshold.  
+In this study, standard thresholds are used: p < 0.05 indicates statistical significance, while p < 0.01 indicates strong statistical significance.
+
+
+
 
 
 
