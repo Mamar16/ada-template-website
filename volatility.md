@@ -326,7 +326,7 @@ but the **general tendency remains favorable**, especially for medium and long h
  This part is for all the bros and sisters that are willing to get high returns with ESG ETFS.
 It will answer the wether taking higher amount of risk, therfore investing ine ESG ETF with higher volatility, also tend to increase the average return related to the ESG in the past few years.
 
-<img src="risk_reward.png" 
+<img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
      style="width:90%;max-width:1000px;display:block;margin:auto;">
 
