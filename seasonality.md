@@ -38,8 +38,22 @@ Below is a table of the results of our t-test:
 | 6 | 0.031200 | 36.317516 | 1.225119e-288 | 1214537 |
 
 
-Firstly, the large sample size strengthens our observations, which is further supported by the very small p-values, lettting us reject the null hypothesis that there is no correlation between the time of the year and the performance of the ETF market.
+Firstly, the large sample size strengthens our observations, which is further supported by the very small p-values, lettting us reject the null hypothesis that there is no correlation between the time of the year and the performance of the ETF market. We do have to note how small the z-scores are showing that this rvariation in between seasons is not very large. 
 
 ## Looking at the ESGs
 
 Now lets do a similar analysis for our ESG ETFs. 
+
+<iframe src="https://pablovallbona.github.io/ada-template-website/assets/graphs/ESG.html" width="100%" height="600px" style="border:none;"></iframe>
+
+
+<img src="assets/img/heatmap_all_esg_average.png" alt="intro_image" style="width:100%;max-width:1000px;display:block;margin:auto;">
+
+| Period | Mean Z-Score | t-statistic | p-value | N |
+|:------:|:------------:|:-----------:|:--------:|:---:|
+| 1 | -0.015203 | -2.139908 | 3.237800e-02 | 15,286 |
+| 2 | -0.047980 | -4.230572 | 2.343786e-05 | 16,211 |
+| 3 | 0.031941  | 4.344045  | 1.407367e-05 | 16,144 |
+| 4 | 0.027376  | 4.423547  | 9.769529e-06 | 17,030 |
+| 5 | -0.060516 | -8.977443 | 3.046224e-19 | 17,541 |
+| 6 | 0.067915  | 9.478198  | 2.940545e-21 | 16,047 |
