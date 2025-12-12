@@ -6,11 +6,12 @@ Can **doing well** in finance also mean **doing good** for human kind? If you’
 
 * * *
 ## What are ESG funds?
-
+<span id="cite-esg-1"></span>
+<span id="cite-esg-2"></span>
 ESG stands for **Environmental**, **Social**, and **Governance**, basically, the three pillars of responsible investing. An ESG ETF is a fund that includes companies that do well in these areas. For example, it might invest in companies that are eco-friendly, treat their employees and communities well, and have strong, transparent leadership. Think of ESG funds as a way to align your investments with your values 
 <sup><a href="conclusion.html#ref-esg-1" id="cite-esg-1">[1]</a></sup>
 <sup><a href="conclusion.html#ref-esg-2" id="cite-esg-2">[2]</a></sup>.
-
+<span id="cite-esg-3"></span>
 But a quick heads-up: the rules for what counts as “ESG” aren’t set in stone yet. Each fund issuer can have slightly different standards putting more importance into certain categories, so ESG funds can vary quite a bit
 <sup><a href="conclusion.html#ref-esg-3" id="cite-esg-3">[3]</a></sup>.
 

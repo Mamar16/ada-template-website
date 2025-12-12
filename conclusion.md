@@ -15,9 +15,9 @@ layout: default
 <a id="ref-2"></a>
 **[2]** CFA Institute. *ESG Investing*  
 [https://www.cfainstitute.org/en/research/foundation/2020/esg-investing](https://www.cfainstitute.org/en/research/foundation/2020/esg-investing)  
-[↩ back to text](/ada-template-website/#cite-esg-1)
+[↩ back to text](/ada-template-website/#cite-esg-2)
 
 <a id="ref-3"></a>
 **[3]** European Commission. *SFDR*  
 [https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/sfdr_en](https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/sfdr_en)  
-[↩ back to text](/ada-template-website/#cite-esg-1)
+[↩ back to text](/ada-template-website/#cite-esg-3)
