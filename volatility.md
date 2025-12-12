@@ -97,7 +97,7 @@ Mathematically, it is the standard deviation of daily log returns. A higher vola
 ---
 
 Let's now plot the results correspondingg to this Timeframe : 
-<a id="fig-vol-yield-with-outliers"></a>
+<a id="fig-vol-yield-with-no-outliers"></a>
 
 **Figure 1 — Annualized Return and Volatility**
 
@@ -110,7 +110,6 @@ Let's now plot the results correspondingg to this Timeframe :
 
 And let s compute aswell :
 
----
 - The average anualized return of each Group :
   
 $$
@@ -179,7 +178,7 @@ This corresponds approximately to keeping the central 95% of the data, which is 
 
 Lets Now perform the same analysis related results:
 
-<a id="fig-vol-yield-no-outliers"></a>
+<a id="fig-vol-yield-with-outliers"></a>
 
 **Figure 2 — Annualized Return and Volatility (without outliers)**
 
@@ -212,7 +211,7 @@ Lets Now perform the same analysis related results:
 ### Part 2. Performance of ESG ETFs vs. the Market Across Different Timeframes
 
 Now that we’ve seen how to compare ESG ETFs with the overall market on a **single** timeframe, the next step is to examine how this comparison behaves across **many different time ranges**.  
-This allows us to detect **general performance trends** rather than relying on one arbitrary choice — giving us a far **more robust** answer about ESG ETF performance.
+This allows us to detect **general performance trends** rather than relying on one arbitrary choice giving us a far **more robust** answer about ESG ETF performance.
 
 ---
 
@@ -259,7 +258,7 @@ Let's see what we got!
 
 ## Results 
 
-### with outliers kept in the Market data:
+### With outliers kept in the Market data:
 
 ---
 - Volatility comprison :
@@ -284,7 +283,7 @@ For every timeframe tested, ESG ETFs show a **positive excess annualized return*
 
 ---
 
-### without outliers in the Market data:
+### Without outliers in the Market data:
 
 ---
 - Volatility comprison :
@@ -325,7 +324,7 @@ but the **general tendency remains favorable**, especially for medium and long h
 
  ***
 
- ## High risk = High reward?
+## High risk = High reward?
 
 <img src="assets/img/risk_reward.png" 
      alt="Risk = reward?"
@@ -355,7 +354,7 @@ r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}
 $$
 
 where:
-- $x_i$ denotes ESG ETF volatility,
+- 'x_i' denotes ESG ETF volatility,
 - $y_i$ denotes annualized total return,
 - $\bar{x}$ and $\bar{y}$ are the sample means,
 - $n$ is the number of ETFs in the sample.
