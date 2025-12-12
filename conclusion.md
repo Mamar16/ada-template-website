@@ -21,3 +21,9 @@ layout: default
 **[3]** European Commission. *SFDR*  
 [https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/sfdr_en](https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/sfdr_en)  
 [↩ back to text](/ada-template-website/#cite-esg-3)
+
+<a id="ref-vol"></a>
+**[1]** CFA Institute. *Quantitative Methods – Measures of Risk*.  
+Defines volatility as the standard deviation of returns and presents it as a core risk metric in finance.  
+https://www.cfainstitute.org/en/research/foundation/2010/quantitative-methods
+[↩ back to text](/ada-template-website/volatility#cite-vol)

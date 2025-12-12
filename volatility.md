@@ -89,7 +89,7 @@ $$
 $$
 
 Volatility measures how much an ETF's returns fluctuate around their average value.  
-Mathematically, it is the standard deviation of daily log returns. A higher volatility means the ETF experiences larger day-to-day movements, which corresponds to higher uncertainty and higher risk of rapid losses.
+Mathematically, it is the standard deviation of daily log returns. A higher volatility means the ETF experiences larger day-to-day movements, which corresponds to higher uncertainty and higher risk of rapid losses.<sup><a href="conclusion.html#ref-vol">[4]</a></sup>.
 
 ---
 
