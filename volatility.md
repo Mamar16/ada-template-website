@@ -419,6 +419,10 @@ To quantify this, we take one step further, computing a Pearson correlation with
 - X = “correlation (volatility vs return) for ESG ETFs”, and  
 - Y = “average annualized return of ESG ETFs” across timeframes.
 
+<img src="assets/img/Corrception1.png" 
+     alt="Corrception1"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
+
 For ESG ETFs only, we obtain:
 
 - r ≈ 0.43
@@ -439,14 +443,14 @@ We repeat exactly the same exercise, but this time on the **entire ETF universe*
 - the correlation between volatility and returns for all ETFs, and  
 - their average annualized return over each timeframe.
 
-<img src="assets/img/all_ETF_corr_and_return.png" 
-     alt="Risk = reward?4"
-     style="width:80%;max-width:1000px;display:block;margin:auto;">
-
 
 Here, the pattern becomes much more striking. When the **overall ETF market performs strongly**, the volatility–return correlation becomes much stronger; when performance is weaker, the correlation collapses.
 
 Running the same meta-correlation between:
+
+<img src="assets/img/Corrception2.png" 
+     alt="Corrception2"
+     style="width:80%;max-width:1000px;display:block;margin:auto;">
 
 - X = “correlation (volatility vs return) for all ETFs (with outliers)”, and  
 - Y = “average annualized return of all ETFs”,
