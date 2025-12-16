@@ -176,7 +176,7 @@ This corresponds approximately to keeping the central 95% of the data, which is 
 
 ---
 
-Lets Now perform the same analysis related results:
+Lets Now perform the same analysis related results: 
 
 <a id="fig-vol-yield-with-outliers"></a>
 
