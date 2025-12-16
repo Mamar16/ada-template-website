@@ -446,7 +446,7 @@ We repeat exactly the same exercise, but this time on the **entire ETF universe*
 
 Here, the pattern becomes much more striking. When the **overall ETF market performs strongly**, the volatility–return correlation becomes much stronger; when performance is weaker, the correlation collapses.
 
-Running the same meta-correlation between:
+Running the same "Pearsonception" between:
 
 - X = “correlation (volatility vs return) for all ETFs (with outliers)”, and  
 - Y = “average annualized return of all ETFs”
