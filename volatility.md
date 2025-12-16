@@ -474,14 +474,14 @@ Putting all this together, we can now refine our earlier interpretation:
 - But this correlation **seems to strengthen when the whole environment is good** (high average ESG returns) and would likely be weaker in less favorable regimes.
 - On the broader ETF universe, this effect is even more obvious: when the market is doing great, volatility behaves more like an **upside amplifier** than a neutral risk measure.
 
-In other words, the volatility–return correlation we see for ESG ETFs is **not a timeless law of finance**.  
+In other words, the volatility–return correlation we see for ESG ETFs is **not a timeless law of ESG finance**.  
 It is at least partly **biased by the fact that ESG ETFs performed very well over the sample period**. During strong performance regimes, high-volatility products tend to sit on the right side of the trend and look like “high risk = high reward”. But if the global ESG performance were to weaken, the same high volatility could just as easily amplify **losses** instead.
 
 So from an investor perspective:
 
 > Higher volatility in ESG ETFs has historically been associated with higher returns in this dataset, **but mainly in periods when ESG as a whole was doing well**. Volatility is better seen as an amplifier of whatever regime you are in, not as a guarantee of extra return.
 
-Time to keep that in mind before aping into the spiciest ESG tickers on the list.
+Time to keep that in mind before investing into the spiciest ESG tickers on the list.
 
 
 
