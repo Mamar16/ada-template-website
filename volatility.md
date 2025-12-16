@@ -103,7 +103,7 @@ Let's now plot the results correspondingg to this Timeframe :
 
 ---
 <img src="assets/img/Volandyieldwithoutilers.png" 
-     alt="Volatility and Annualized Return without outliers"
+     alt="Volatility and Annualized Return with outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
 
 ---
