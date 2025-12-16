@@ -183,7 +183,7 @@ Lets Now perform the same analysis related results:
 **Figure 2 — Annualized Return and Volatility (without outliers)**
 
 ---
-<img src="assets/img/Volandyieldwitoutoutliers.png" 
+<img src="assets/img/Volandyieldwithoutoutilers.png" 
      alt="Volatility and Annualized Return without outliers"
      style="width:100%;max-width:1000px;display:block;margin:auto;">
      
