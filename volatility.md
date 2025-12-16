@@ -448,12 +448,12 @@ Here, the pattern becomes much more striking. When the **overall ETF market perf
 
 Running the same meta-correlation between:
 
+- X = “correlation (volatility vs return) for all ETFs (with outliers)”, and  
+- Y = “average annualized return of all ETFs”
+  
 <img src="assets/img/Corrception2.png" 
      alt="Corrception2"
      style="width:80%;max-width:1000px;display:block;margin:auto;">
-
-- X = “correlation (volatility vs return) for all ETFs (with outliers)”, and  
-- Y = “average annualized return of all ETFs”,
 
 we get:
 
